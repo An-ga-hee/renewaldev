@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(/assets/css/the-crossing-lab.css);
+@import url(../css/the-crossing-lab.css);
 html {
   scroll-behavior: smooth;
   /* body */

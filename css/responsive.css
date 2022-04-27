@@ -1,4 +1,4 @@
-@import url(/assets/css/the-crossing-lab.css);
+@import url(../css/the-crossing-lab.css);
 /* 480px ~ 599px */
 @media (min-width: 480px) {
   html {
