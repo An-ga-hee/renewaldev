@@ -138,7 +138,7 @@ html body header .mWrap .mItems .mNavItem .mNavItem-t a {
   color: #fff;
   text-transform: capitalize;
   font-size: 3vw;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 html body header .mWrap .mItems .mNavItem:hover a {
@@ -253,8 +253,8 @@ html body header .mWrap #language input {
 
 html body header .mWrap #language label {
   font-size: 3vw;
-  font-weight: 600;
-  text-transform: capitalize;
+  font-weight: 700;
+  text-transform: uppercase;
   cursor: pointer;
 }
 
@@ -306,6 +306,7 @@ html body main {
   /* section2 */
   /* section3 */
   /* section4 */
+  /* section5 */
 }
 
 html body main .head-fix {
@@ -871,6 +872,88 @@ html body main #section4 #businessWrap:hover img {
   transition: 0.5s;
   -webkit-filter: brightness(40%);
           filter: brightness(40%);
+}
+
+html body main #section5 {
+  height: 100%;
+}
+
+html body main #section5 .crew {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15vh 4vw;
+  background-color: #000;
+}
+
+html body main #section5 .crew .crew-dep {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15vw;
+  gap: 5vw;
+}
+
+html body main #section5 .crew .crew-dep .crew-title .dot-yellow {
+  width: 20px;
+  height: 20px;
+  background-color: #ff9900;
+}
+
+html body main #section5 .crew .crew-dep .crew-title h2 {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 2vw;
+}
+
+html body main #section5 .crew .crew-dep .crew-title h2 span {
+  font-weight: 300;
+  font-style: italic;
+}
+
+html body main #section5 .crew .crew-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3vw;
+}
+
+html body main #section5 .crew .crew-container .crew-wrap {
+  width: 30vw;
+}
+
+html body main #section5 .crew .crew-container .crew-wrap .crew-img {
+  width: 100%;
+  height: 30vw;
+  overflow: hidden;
+}
+
+html body main #section5 .crew .crew-container .crew-wrap .crew-img img {
+  width: 100%;
+  height: 100%;
+}
+
+html body main #section5 .crew .crew-container .crew-wrap .crew-txt {
+  color: #fff;
+}
+
+html body main #section5 .crew .crew-container .crew-wrap .crew-txt h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 2vw 0 2vw;
+}
+
+html body main #section5 .crew .crew-container .crew-wrap .crew-txt p {
+  font-size: 14px;
 }
 
 /* html */

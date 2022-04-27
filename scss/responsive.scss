@@ -100,6 +100,38 @@
                 }
 
                 /* section4 */
+                #section5 {
+                    .crew {
+                        .crew-dep {
+                            .crew-title {
+
+                                h2 {
+                                    font-size: 22px;
+
+                                }
+                            }
+                        }
+
+                        .crew-container {
+                            .crew-wrap {
+
+                                .crew-txt {
+
+                                    h3 {
+                                        font-size: 20px;
+                                    }
+
+                                    p {
+                                        font-size: 16px;
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                /* section5 */
 
             }
 
@@ -200,6 +232,21 @@
                 }
 
                 /* section2 */
+                #section5 {
+                    .crew {
+                        .crew-dep {
+                            .crew-title {
+
+                                h2 {
+                                    font-size: 28px;
+
+                                }
+                            }
+                        }
+                    }
+                }
+
+                /* section5 */
             }
 
             /* main */
@@ -368,6 +415,80 @@
                 }
 
                 /* section4 */
+                #section5 {
+
+                    .crew {
+                        padding: 80px 0;
+
+                        .crew-dep {
+                            display: flex;
+                            flex-direction: row;
+                            margin-bottom: 5vw;
+                            width: 100%;
+                            height: 100%;
+                            padding: 0 100px;
+                            flex-wrap: wrap;
+
+                            .crew-title {
+                                display: flex;
+                                flex-direction: column;
+                                width: 30%;
+                                gap: 1vw;
+
+                                h2 {
+                                    margin-top: 0;
+                                    font-size: 1.7vw;
+                                }
+                            }
+                        }
+
+                        .crew-container {
+                            display: flex;
+                            gap: 20px;
+                            height: 100%;
+                            flex-wrap: wrap;
+                            justify-content: left;
+                            width: 100%;
+
+                            .crew-wrap {
+                                height: 100%;
+                                width: auto;
+
+                                .crew-img {
+                                    width: 23vw;
+                                    height: auto;
+                                    overflow: hidden;
+
+                                    img {
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+
+                                // .crew-img:hover img {
+                                //     transform: scale(1.1);
+                                //     transition: 0.5s;
+                                // }
+
+                                .crew-txt {
+
+                                    color: #fff;
+
+                                    h3 {
+                                        font-size: 1.1vw;
+                                        margin: 0.5vw 0 0.3vw;
+                                    }
+
+                                    p {
+                                        font-size: 0.8vw;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                /* section5 */
             }
 
             /* main */
@@ -744,6 +865,87 @@
                 }
 
                 /* section4 */
+                #section5 {
+
+                    .crew {
+                        padding: 80px 0;
+
+                        .crew-dep {
+                            display: flex;
+                            flex-direction: row;
+                            margin-bottom: 5vw;
+                            width: 100%;
+                            height: 100%;
+                            padding: 0 100px;
+                            flex-wrap: wrap;
+
+                            .crew-title {
+                                display: flex;
+                                flex-direction: column;
+                                width: 40%;
+                                gap: 1vw;
+
+                                // width: 120px;
+                                .dot-yellow {
+                                    width: 32px;
+                                    height: 32px;
+                                    // background-color: #ff9900;
+                                }
+
+                                h2 {
+                                    margin-top: 0;
+                                    font-size: 1.7vw;
+                                }
+                            }
+                        }
+
+                        .crew-container {
+                            display: flex;
+                            gap: 30px;
+                            height: 100%;
+                            flex-wrap: wrap;
+                            justify-content: left;
+                            width: 50%;
+
+                            .crew-wrap {
+                                height: 100%;
+                                width: auto;
+
+                                .crew-img {
+                                    width: 11vw;
+                                    height: auto;
+                                    overflow: hidden;
+
+                                    img {
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+
+                                // .crew-img:hover img {
+                                //     transform: scale(1.1);
+                                //     transition: 0.5s;
+                                // }
+
+                                .crew-txt {
+
+                                    color: #fff;
+
+                                    h3 {
+                                        font-size: 1.1vw;
+                                        margin: 0.5vw 0 0.3vw;
+                                    }
+
+                                    p {
+                                        font-size: 0.8vw;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                /* section5 */
             }
 
             /* main */
