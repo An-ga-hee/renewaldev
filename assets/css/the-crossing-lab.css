@@ -1,0 +1,208 @@
+/*
+ *	WebFont Package Licensed to the crossing lab
+ */
+
+/* Segma Thin */
+@font-face {
+	font-family: Segma;
+	src:	url('/assets/fonts/Segma\ Thin.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Segma\ Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/assets/fonts/Segma\ Thin.woff2') format('woff2'), /* Super Modern Browsers */
+			url('/assets/fonts/Segma\ Thin.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Segma Extralight */
+@font-face {
+	font-family: Segma;
+	src:	url('/assets/fonts/Segma\ Extralight.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Segma\ Extralight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/assets/fonts/Segma\ Extralight.woff2') format('woff2'), /* Super Modern Browsers */
+			url('/assets/fonts/Segma\ Extralight.woff2') format('woff'); /* Pretty Modern Browsers */
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Segma Light */
+@font-face {
+	font-family: Segma;
+	src:	url('/assets/fonts/Segma\ Light.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Segma\ Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/assets/fonts/Segma\ Light.woff2') format('woff2'), /* Super Modern Browsers */
+			url('/assets/fonts/Segma\ Light.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Segma Regular */
+@font-face {
+	font-family: Segma;
+	src:	url('/assets/fonts/Segma\ Regular.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Segma\ Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/assets/fonts/Segma\ Regular.woff2') format('woff2'), /* Super Modern Browsers */
+			url('/assets/fonts/Segma\ Regular.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Segma Medium */
+@font-face {
+	font-family: Segma;
+	src:	url('/assets/fonts/Segma\ Medium.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Segma\ Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/assets/fonts/Segma\ Medium.woff2') format('woff2'), /* Super Modern Browsers */
+			url('/assets/fonts/Segma\ Medium.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Segma Semibold */
+@font-face {
+	font-family: Segma;
+	src:	url('/assets/fonts/Segma\ Semibold.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Segma\ Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/assets/fonts/Segma\ Semibold.woff2') format('woff2'), /* Super Modern Browsers */
+			url('/assets/fonts/Segma\ Semibold.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Segma Bold */
+@font-face {
+	font-family: Segma;
+	src:	url('/assets/fonts/Segma\ Bold.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Segma\ Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/assets/fonts/Segma\ Bold.woff2') format('woff2'), /* Super Modern Browsers */
+			url('/assets/fonts/Segma\ Bold.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Segma Black */
+@font-face {
+	font-family: Segma;
+	src:	url('/assets/fonts/Segma\ Black.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Segma\ Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/assets/fonts/Segma\ Black.woff2') format('woff2'), /* Super Modern Browsers */
+			url('/assets/fonts/Segma\ Black.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Segma Thin Italic */
+@font-face {
+	font-family: Segma;
+	src:	url('/assets/fonts/Segma\ Thin Italic.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Segma\ Thin Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/assets/fonts/Segma\ Thin Italic.woff2') format('woff2'), /* Super Modern Browsers */
+			url('/assets/fonts/Segma\ Thin Italic.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: 200;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* Segma Extralight Italic */
+@font-face {
+	font-family: Segma;
+	src:	url('/assets/fonts/Segma\ Extralight Italic.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Segma\ Extralight Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/assets/fonts/Segma\ Extralight Italic.woff2') format('woff2'), /* Super Modern Browsers */
+			url('/assets/fonts/Segma\ Extralight Italic.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* Segma Light Italic */
+@font-face {
+	font-family: Segma;
+	src:	url('/assets/fonts/Segma\ Light Italic.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Segma\ Light Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/assets/fonts/Segma\ Light Italic.woff2') format('woff2'), /* Super Modern Browsers */
+			url('/assets/fonts/Segma\ Light Italic.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* Segma Regular Italic */
+@font-face {
+	font-family: Segma;
+	src:	url('/assets/fonts/Segma\ Regular Italic.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Segma\ Regular Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/assets/fonts/Segma\ Regular Italic.woff2') format('woff2'), /* Super Modern Browsers */
+			url('/assets/fonts/Segma\ Regular Italic.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* Segma Medium Italic */
+@font-face {
+	font-family: Segma;
+	src:	url('/assets/fonts/Segma\ Medium Italic.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Segma\ Medium Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/assets/fonts/Segma\ Medium Italic.woff2') format('woff2'), /* Super Modern Browsers */
+			url('/assets/fonts/Segma\ Medium Italic.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* Segma Semibold Italic */
+@font-face {
+	font-family: Segma;
+	src:	url('/assets/fonts/Segma\ Semibold Italic.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Segma\ Semibold Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/assets/fonts/Segma\ Semibold Italic.woff2') format('woff2'), /* Super Modern Browsers */
+			url('/assets/fonts/Segma\ Semibold Italic.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* Segma Bold Italic */
+@font-face {
+	font-family: Segma;
+	src:	url('/assets/fonts/Segma\ Bold Italic.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Segma\ Bold Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/assets/fonts/Segma\ Bold Italic.woff2') format('woff2'), /* Super Modern Browsers */
+			url('/assets/fonts/Segma\ Bold Italic.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: 800;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* Segma Black Italic */
+@font-face {
+	font-family: Segma;
+	src:	url('/assets/fonts/Segma\ Black Italic.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Segma\ Black Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/assets/fonts/Segma\ Black Italic.woff2') format('woff2'), /* Super Modern Browsers */
+			url('/assets/fonts/Segma\ Black Italic.woff') format('woff'); /* Pretty Modern Browsers */
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* @font-face {
+	font-family: YoonGothicPro730;
+	src:	url('../fonts/YoonGothicPro730.eot');
+	src:	url('../fonts/YoonGothicPro730.eot?#iefix') format('embedded-opentype'), 
+			url('../fonts/YoonGothicPro730.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+} */
+
+
+

@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/* 여백 reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* a link reset */
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* font reset */
+body,
+input,
+textarea,
+select,
+button,
+table {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #fff;
+    // letter-spacing: -1px;
+}
+
+/* ul reset */
+ul {
+    list-style: none;
+}
+
+/* h1 ~ h6 reset */
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 13px;
+    font-weight: normal;
+
+}
+
+/* button reset */
+button {
+    border: 0
+}
+
+/* img reset */
+img,
+video {
+    width: 100%;
+}
