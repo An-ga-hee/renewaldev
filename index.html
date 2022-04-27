@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Crossing Lab</title>
 
-    <link rel="shortcut icon" href="assets/img/favicon.png">
-    <link rel="stylesheet" href="assets/css/the-crossing-lab.css">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/the-crossing-lab.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
@@ -20,7 +20,7 @@
     <header id="header">
         <div id="logo">
             <a href="index.html">
-                <img src="assets/img/logoBicWhite.png" alt="mainLogo">
+                <img src="img/logoBicWhite.png" alt="mainLogo">
             </a>
         </div>
         <nav>
@@ -72,7 +72,7 @@
     <main role="main" id="main">
         <section id="section1">
             <div class="video-box">
-                <video src="assets/video/intro.mp4" muted autoplay="" playsinline loop="" type="video/mp4"></video>
+                <video src="video/intro.mp4" muted autoplay="" playsinline loop="" type="video/mp4"></video>
             </div>
             <div class="swiper intro">
                 <div class="swiper-wrapper">
@@ -194,27 +194,27 @@
             <div id="section3-grid">
                 <div class="image-grid">
                     <div class="image-grid__item pos-1">
-                        <img src="assets/img/myMe.png" alt="">
+                        <img src="img/myMe.png" alt="">
                         <h2>my me</h2>
                     </div>
                     <div class="image-grid__item pos-2">
-                        <img src="assets/img/mySpace.png" alt="">
+                        <img src="img/mySpace.png" alt="">
                         <h2>my space</h2>
                     </div>
                     <div class="image-grid__item pos-3">
-                        <img src="assets/img/healing.png" alt="">
+                        <img src="img/healing.png" alt="">
                         <h2>healing</h2>
                     </div>
                     <div class="image-grid__item pos-4">
-                        <img src="assets/img/gallery.png" alt="">
+                        <img src="img/gallery.png" alt="">
                         <h2>gallery</h2>
                     </div>
                     <div class="image-grid__item pos-5">
-                        <img src="assets/img/world.png" alt="">
+                        <img src="img/world.png" alt="">
                         <h2>world</h2>
                     </div>
                     <div class="image-grid__item pos-6">
-                        <img src="assets/img/nftMarket.png" art="">
+                        <img src="img/nftMarket.png" art="">
                         <h2>nft market</h2>
                     </div>
                     <div class="image-grid__item pos-7">
@@ -245,7 +245,7 @@
             <div id="business">
                 <div id="businessWrap" class="archiving">
                     <div class="business-img">
-                        <img src="assets/img/archiving.png" alt="">
+                        <img src="img/archiving.png" alt="">
                     </div>
                     <div class="business-txt">
                         <h2>
@@ -261,7 +261,7 @@
                 <!-- archiving 끝 -->
                 <div id="businessWrap" class="artfair">
                     <div class="business-img">
-                        <img src="assets/img/artfair.png" alt="">
+                        <img src="img/artfair.png" alt="">
                     </div>
                     <div class="business-txt">
                         <h2>
@@ -275,7 +275,7 @@
                 <!-- artfair 끝 -->
                 <div id="businessWrap" class="inJeju">
                     <div class="business-img">
-                        <img src="assets/img/inJeju.png" alt="">
+                        <img src="img/inJeju.png" alt="">
                     </div>
                     <div class="business-txt">
                         <h2>
@@ -312,9 +312,9 @@
 
     <script src="https://unpkg.com/typeit@8.4.0/dist/index.umd.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/js/jquery-3.6.0.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/lang.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/lang.js"></script>
 
     <script>
         /* typeIt */
@@ -322,17 +322,6 @@
             new TypeIt(".title")
                 .pause(500)
                 .go();
-        });
-
-        /* header */
-        $(function () {
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 800) {
-                    $("header").css("backgroundColor", "#000000e6")
-                } else {
-                    $("header").css("backgroundColor", "transparent");
-                }
-            })
         });
 
         /* section1 slide */

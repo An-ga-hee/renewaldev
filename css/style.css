@@ -691,18 +691,18 @@ html body main #section2 #vision .vision-txt p {
 }
 
 html body main #section2 .mission .vision-img {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(/assets/img/mission.png);
-  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(/assets/img/mission.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/mission.png);
+  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/mission.png);
 }
 
 html body main #section2 .vision .vision-img {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(/assets/img/vision.png);
-  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(/assets/img/vision.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/vision.png);
+  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/vision.png);
 }
 
 html body main #section2 .strength .vision-img {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(/assets/img/strength.png);
-  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(/assets/img/strength.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/strength.png);
+  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/strength.png);
 }
 
 html body main #section3 {
