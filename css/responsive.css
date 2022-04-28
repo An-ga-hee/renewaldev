@@ -23,6 +23,9 @@
     font-size: 18px;
     margin-top: 15px;
   }
+  html body main #section1 .swiper .swiper-slide .introTxt {
+    padding: 0 12vw;
+  }
   html body main #section1 .swiper .swiper-slide .introTxt h2 {
     font-size: 4.5vw;
   }
@@ -55,10 +58,10 @@
     font-size: 22px;
   }
   html body main #section5 .crew .crew-container .crew-wrap .crew-txt h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
   html body main #section5 .crew .crew-container .crew-wrap .crew-txt p {
-    font-size: 16px;
+    font-size: 14px;
   }
   /* html */
 }
@@ -123,6 +126,12 @@
   }
   html body main #section5 .crew .crew-dep .crew-title h2 {
     font-size: 28px;
+  }
+  html body main #section5 .crew .crew-container .crew-wrap .crew-txt h3 {
+    font-size: 20px;
+  }
+  html body main #section5 .crew .crew-container .crew-wrap .crew-txt p {
+    font-size: 16px;
   }
   /* html */
 }
@@ -270,58 +279,15 @@
   html body main #section4 #businessWrap .business-txt h2 {
     font-size: 35px;
   }
-  html body main #section5 .crew {
-    padding: 80px 0;
-  }
-  html body main #section5 .crew .crew-dep {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    margin-bottom: 5vw;
-    width: 100%;
-    height: 100%;
-    padding: 0 100px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  html body main #section5 .crew .crew-dep .crew-title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 30%;
-    gap: 1vw;
-  }
   html body main #section5 .crew .crew-dep .crew-title h2 {
-    margin-top: 0;
-    font-size: 1.7vw;
-  }
-  html body main #section5 .crew .crew-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 20px;
-    height: 100%;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    width: 100%;
+    font-size: 30px;
   }
   html body main #section5 .crew .crew-container .crew-wrap {
     height: 100%;
     width: auto;
   }
   html body main #section5 .crew .crew-container .crew-wrap .crew-img {
-    width: 23vw;
+    width: 200px;
     height: auto;
     overflow: hidden;
   }
@@ -329,15 +295,11 @@
     width: 100%;
     height: 100%;
   }
-  html body main #section5 .crew .crew-container .crew-wrap .crew-txt {
-    color: #fff;
-  }
   html body main #section5 .crew .crew-container .crew-wrap .crew-txt h3 {
-    font-size: 1.1vw;
-    margin: 0.5vw 0 0.3vw;
+    font-size: 22px;
   }
   html body main #section5 .crew .crew-container .crew-wrap .crew-txt p {
-    font-size: 0.8vw;
+    font-size: 18px;
   }
   /* html */
 }
@@ -691,17 +653,13 @@
     text-align: right;
   }
   html body main #section5 .crew {
-    padding: 80px 0;
+    padding: 200px 0 100px;
   }
   html body main #section5 .crew .crew-dep {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin-bottom: 5vw;
     width: 100%;
     height: 100%;
     padding: 0 100px;
@@ -716,21 +674,18 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 40%;
+    width: 30%;
     gap: 1vw;
   }
   html body main #section5 .crew .crew-dep .crew-title .dot-yellow {
-    width: 32px;
-    height: 32px;
+    width: 25px;
+    height: 25px;
   }
   html body main #section5 .crew .crew-dep .crew-title h2 {
     margin-top: 0;
-    font-size: 1.7vw;
+    font-size: 35px;
   }
   html body main #section5 .crew .crew-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     gap: 30px;
     height: 100%;
     -ms-flex-wrap: wrap;
@@ -738,30 +693,36 @@
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
-    width: 50%;
+    width: 60%;
   }
   html body main #section5 .crew .crew-container .crew-wrap {
     height: 100%;
     width: auto;
   }
   html body main #section5 .crew .crew-container .crew-wrap .crew-img {
-    width: 11vw;
+    width: 14vw;
     height: auto;
-    overflow: hidden;
-  }
-  html body main #section5 .crew .crew-container .crew-wrap .crew-img img {
-    width: 100%;
-    height: 100%;
-  }
-  html body main #section5 .crew .crew-container .crew-wrap .crew-txt {
-    color: #fff;
   }
   html body main #section5 .crew .crew-container .crew-wrap .crew-txt h3 {
-    font-size: 1.1vw;
-    margin: 0.5vw 0 0.3vw;
+    font-size: 25px;
+    margin: 1vw 0 0.5vw;
   }
   html body main #section5 .crew .crew-container .crew-wrap .crew-txt p {
-    font-size: 0.8vw;
+    font-size: 18px;
+  }
+  html body main #top-btn {
+    color: #fff;
+    font-size: 30px;
+    padding: 3px 16px 5px;
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    z-index: 999;
+  }
+  html body main #top-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
   }
   /* html */
 }

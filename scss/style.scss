@@ -395,7 +395,7 @@ html {
                         .introTxt {
                             position: absolute;
                             top: 50%;
-                            padding: 0 12vw;
+                            padding: 0 8vw;
                             transform: translateY(-50%);
 
                             .title {
@@ -786,7 +786,7 @@ html {
                     .crew-dep {
                         display: flex;
                         flex-direction: column;
-                        margin-bottom: 15vw;
+                        margin-bottom: 10vw;
                         gap: 5vw;
 
                         .crew-title {
@@ -811,6 +811,10 @@ html {
                         }
                     }
 
+                    .crew-dep:last-child {
+                        margin-bottom: 5vw;
+                    }
+
                     .crew-container {
                         display: flex;
                         gap: 3vw;
@@ -831,8 +835,6 @@ html {
 
                             .crew-txt {
 
-                                color: #fff;
-
                                 h3 {
                                     font-size: 16px;
                                     font-weight: 600;
@@ -840,7 +842,7 @@ html {
                                 }
 
                                 p {
-                                    font-size: 14px;
+                                    font-size: 12px;
 
                                 }
                             }

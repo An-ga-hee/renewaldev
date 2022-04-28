@@ -454,7 +454,7 @@ html body main #section1 .swiper .swiper-slide {
 html body main #section1 .swiper .swiper-slide .introTxt {
   position: absolute;
   top: 50%;
-  padding: 0 12vw;
+  padding: 0 8vw;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -898,7 +898,7 @@ html body main #section5 .crew .crew-dep {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 15vw;
+  margin-bottom: 10vw;
   gap: 5vw;
 }
 
@@ -918,6 +918,10 @@ html body main #section5 .crew .crew-dep .crew-title h2 {
 html body main #section5 .crew .crew-dep .crew-title h2 span {
   font-weight: 300;
   font-style: italic;
+}
+
+html body main #section5 .crew .crew-dep:last-child {
+  margin-bottom: 5vw;
 }
 
 html body main #section5 .crew .crew-container {
@@ -942,10 +946,6 @@ html body main #section5 .crew .crew-container .crew-wrap .crew-img img {
   height: 100%;
 }
 
-html body main #section5 .crew .crew-container .crew-wrap .crew-txt {
-  color: #fff;
-}
-
 html body main #section5 .crew .crew-container .crew-wrap .crew-txt h3 {
   font-size: 16px;
   font-weight: 600;
@@ -953,7 +953,7 @@ html body main #section5 .crew .crew-container .crew-wrap .crew-txt h3 {
 }
 
 html body main #section5 .crew .crew-container .crew-wrap .crew-txt p {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* html */

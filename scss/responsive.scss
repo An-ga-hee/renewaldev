@@ -33,6 +33,7 @@
                         .swiper-slide {
 
                             .introTxt {
+                                padding: 0 12vw;
 
                                 h2 {
                                     font-size: 4.5vw;
@@ -118,11 +119,11 @@
                                 .crew-txt {
 
                                     h3 {
-                                        font-size: 20px;
+                                        font-size: 18px;
                                     }
 
                                     p {
-                                        font-size: 16px;
+                                        font-size: 14px;
 
                                     }
                                 }
@@ -240,6 +241,23 @@
                                 h2 {
                                     font-size: 28px;
 
+                                }
+                            }
+                        }
+
+                        .crew-container {
+                            .crew-wrap {
+
+                                .crew-txt {
+
+                                    h3 {
+                                        font-size: 20px;
+                                    }
+
+                                    p {
+                                        font-size: 16px;
+
+                                    }
                                 }
                             }
                         }
@@ -415,47 +433,26 @@
                 }
 
                 /* section4 */
+
                 #section5 {
-
                     .crew {
-                        padding: 80px 0;
-
                         .crew-dep {
-                            display: flex;
-                            flex-direction: row;
-                            margin-bottom: 5vw;
-                            width: 100%;
-                            height: 100%;
-                            padding: 0 100px;
-                            flex-wrap: wrap;
-
                             .crew-title {
-                                display: flex;
-                                flex-direction: column;
-                                width: 30%;
-                                gap: 1vw;
 
                                 h2 {
-                                    margin-top: 0;
-                                    font-size: 1.7vw;
+                                    font-size: 30px;
+
                                 }
                             }
                         }
 
                         .crew-container {
-                            display: flex;
-                            gap: 20px;
-                            height: 100%;
-                            flex-wrap: wrap;
-                            justify-content: left;
-                            width: 100%;
-
                             .crew-wrap {
                                 height: 100%;
                                 width: auto;
 
                                 .crew-img {
-                                    width: 23vw;
+                                    width: 200px;
                                     height: auto;
                                     overflow: hidden;
 
@@ -465,22 +462,15 @@
                                     }
                                 }
 
-                                // .crew-img:hover img {
-                                //     transform: scale(1.1);
-                                //     transition: 0.5s;
-                                // }
-
                                 .crew-txt {
 
-                                    color: #fff;
-
                                     h3 {
-                                        font-size: 1.1vw;
-                                        margin: 0.5vw 0 0.3vw;
+                                        font-size: 22px;
                                     }
 
                                     p {
-                                        font-size: 0.8vw;
+                                        font-size: 18px;
+
                                     }
                                 }
                             }
@@ -868,12 +858,10 @@
                 #section5 {
 
                     .crew {
-                        padding: 80px 0;
+                        padding: 200px 0 100px;
 
                         .crew-dep {
-                            display: flex;
                             flex-direction: row;
-                            margin-bottom: 5vw;
                             width: 100%;
                             height: 100%;
                             padding: 0 100px;
@@ -882,62 +870,46 @@
                             .crew-title {
                                 display: flex;
                                 flex-direction: column;
-                                width: 40%;
+                                width: 30%;
                                 gap: 1vw;
 
-                                // width: 120px;
                                 .dot-yellow {
-                                    width: 32px;
-                                    height: 32px;
-                                    // background-color: #ff9900;
+                                    width: 25px;
+                                    height: 25px;
                                 }
 
                                 h2 {
                                     margin-top: 0;
-                                    font-size: 1.7vw;
+                                    font-size: 35px;
                                 }
                             }
                         }
 
                         .crew-container {
-                            display: flex;
                             gap: 30px;
                             height: 100%;
                             flex-wrap: wrap;
                             justify-content: left;
-                            width: 50%;
+                            width: 60%;
 
                             .crew-wrap {
                                 height: 100%;
                                 width: auto;
 
                                 .crew-img {
-                                    width: 11vw;
+                                    width: 14vw;
                                     height: auto;
-                                    overflow: hidden;
 
-                                    img {
-                                        width: 100%;
-                                        height: 100%;
-                                    }
                                 }
 
-                                // .crew-img:hover img {
-                                //     transform: scale(1.1);
-                                //     transition: 0.5s;
-                                // }
-
                                 .crew-txt {
-
-                                    color: #fff;
-
                                     h3 {
-                                        font-size: 1.1vw;
-                                        margin: 0.5vw 0 0.3vw;
+                                        font-size: 25px;
+                                        margin: 1vw 0 0.5vw;
                                     }
 
                                     p {
-                                        font-size: 0.8vw;
+                                        font-size: 18px;
                                     }
                                 }
                             }
@@ -946,6 +918,22 @@
                 }
 
                 /* section5 */
+                #top-btn {
+                    color: #fff;
+                    font-size: 30px;
+                    padding: 3px 16px 5px;
+                    position: fixed;
+                    bottom: 5%;
+                    right: 3%;
+                    border: 3px solid #fff;
+                    border-radius: 50%;
+                    z-index: 999;
+                }
+
+                #top-btn:hover {
+                    background-color: rgba(255, 255, 255, 0.2);
+                }
+
             }
 
             /* main */
