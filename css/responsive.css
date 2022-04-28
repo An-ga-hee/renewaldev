@@ -26,7 +26,7 @@
   html body main #section1 .swiper .swiper-slide .introTxt {
     padding: 0 12vw;
   }
-  html body main #section1 .swiper .swiper-slide .introTxt h2 {
+  html body main #section1 .swiper .swiper-slide .introTxt h3 {
     font-size: 4.5vw;
   }
   html body main #section1 .swiper .swiper-slide .introTxt p {
@@ -397,10 +397,10 @@
   html body main #section1 .swiper .swiper-slide .introTxt .title {
     font-size: 56px;
   }
-  html body main #section1 .swiper .swiper-slide .introTxt h3 {
+  html body main #section1 .swiper .swiper-slide .introTxt h2 {
     font-size: 56px;
   }
-  html body main #section1 .swiper .swiper-slide .introTxt h2 {
+  html body main #section1 .swiper .swiper-slide .introTxt h3 {
     font-size: 50px;
   }
   html body main #section1 .swiper .swiper-slide .introTxt p {

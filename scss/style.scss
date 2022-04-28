@@ -23,7 +23,7 @@ html {
 
             #logo {
                 width: 80px;
-
+                height: auto;
                 a {
                     width: 100%;
                     display: block;
@@ -414,14 +414,14 @@ html {
                                 }
                             }
 
-                            h3 {
+                            h2 {
                                 font-size: 6vw;
                                 text-transform: uppercase;
                                 font-weight: 700;
                                 margin-bottom: 20px;
                             }
 
-                            h2 {
+                            h3 {
                                 font-size: 5vw;
                                 font-weight: 400;
                                 line-height: 1.2;

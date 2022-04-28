@@ -32,6 +32,7 @@ html body header {
 
 html body header #logo {
   width: 80px;
+  height: auto;
 }
 
 html body header #logo a {
@@ -475,20 +476,20 @@ html body main #section1 .swiper .swiper-slide .introTxt .title .ti-cursor {
   font-style: normal;
 }
 
-html body main #section1 .swiper .swiper-slide .introTxt h3 {
+html body main #section1 .swiper .swiper-slide .introTxt h2 {
   font-size: 6vw;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-html body main #section1 .swiper .swiper-slide .introTxt h2 {
+html body main #section1 .swiper .swiper-slide .introTxt h3 {
   font-size: 5vw;
   font-weight: 400;
   line-height: 1.2;
 }
 
-html body main #section1 .swiper .swiper-slide .introTxt h2 span {
+html body main #section1 .swiper .swiper-slide .introTxt h3 span {
   font-weight: 700;
 }
 
