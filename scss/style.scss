@@ -9,6 +9,7 @@ html {
         font-family: Segma;
         position: relative;
         height: 100%;
+        background-color: #000;
 
         header {
             width: 100%;
@@ -24,6 +25,7 @@ html {
             #logo {
                 width: 80px;
                 height: auto;
+
                 a {
                     width: 100%;
                     display: block;
@@ -274,6 +276,7 @@ html {
 
         /* header*/
         main {
+
             .head-fix {
                 margin-top: -120px;
                 padding-top: 120px;
@@ -852,9 +855,85 @@ html {
             }
 
             /* section5 */
+            #top-btn {
+                color: #fff;
+                font-size: 30px;
+                padding: 3px 16px 5px;
+                position: fixed;
+                bottom: 5%;
+                right: 3%;
+                border: 3px solid #fff;
+                border-radius: 50%;
+                z-index: 999;
+                opacity: 0;
+            }
+
+            #top-btn:hover {
+                background-color: rgba(255, 255, 255, 0.2);
+            }
         }
 
         /* main */
+        footer {
+            height: 20vh;
+            background-color: #e5e5e5;
+            font-weight: 700;
+
+            .footer-wrap {
+                padding: 0 3vw;
+                width: 100%;
+                display: flex;
+                height: 100%;
+                justify-content: space-between;
+                align-items: center;
+                box-sizing: border-box;
+                color: #000;
+
+                .btm-logo {
+                    height: auto;
+                    width: 23%;
+
+                    a {
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+
+                p {
+                    width: 70%;
+                    font-size: 2.8vw;
+                    color: #000;
+                    margin: 0 2vw;
+
+                    span {
+                        cursor: pointer;
+                        line-height: 2;
+                        margin-left: 3vw;
+                        text-decoration: underline;
+                        font-size: 2.8vw;
+                    }
+                }
+
+                a {
+                    width: 10%;
+                    height: auto;
+                    color: #000;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                }
+
+            }
+
+        }
+
+        /* footer */
     }
 
     /* body */

@@ -6,6 +6,7 @@
   }
   html body {
     /* main */
+    /* footer */
   }
   html body header #logo {
     width: 100px;
@@ -63,6 +64,28 @@
   html body main #section5 .crew .crew-container .crew-wrap .crew-txt p {
     font-size: 14px;
   }
+  html body footer {
+    height: 20vh;
+  }
+  html body footer .footer-wrap {
+    padding: 0 3vw;
+    margin: 0 auto;
+    height: 100%;
+  }
+  html body footer .footer-wrap .btm-logo {
+    margin-right: 20px;
+  }
+  html body footer .footer-wrap .btm-logo a img {
+    width: 100%;
+    height: 100%;
+  }
+  html body footer .footer-wrap p {
+    font-size: 12px;
+  }
+  html body footer .footer-wrap p span {
+    margin-left: 15px;
+    font-size: 12px;
+  }
   /* html */
 }
 
@@ -74,6 +97,7 @@
   html body {
     /* header */
     /* main */
+    /* footer */
   }
   html body header #logo {
     width: 120px;
@@ -132,6 +156,25 @@
   }
   html body main #section5 .crew .crew-container .crew-wrap .crew-txt p {
     font-size: 16px;
+  }
+  html body footer .footer-wrap {
+    padding: 0 4vw;
+  }
+  html body footer .footer-wrap .btm-logo {
+    width: 120px;
+  }
+  html body footer .footer-wrap p {
+    font-size: 14px;
+  }
+  html body footer .footer-wrap p span {
+    font-size: 14px;
+  }
+  html body footer .footer-wrap a {
+    width: 50px;
+    height: auto;
+  }
+  html body footer .footer-wrap a img {
+    width: 100%;
   }
   /* html */
 }
@@ -312,6 +355,7 @@
   html body {
     /* header */
     /* main */
+    /* footer */
   }
   html body header #logo {
     width: 130px;
@@ -711,18 +755,30 @@
     font-size: 18px;
   }
   html body main #top-btn {
-    color: #fff;
-    font-size: 30px;
-    padding: 3px 16px 5px;
-    position: fixed;
-    bottom: 5%;
-    right: 3%;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    z-index: 999;
+    opacity: 1;
   }
-  html body main #top-btn:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+  html body footer {
+    height: 300px;
+    font-size: 16px;
+  }
+  html body footer .footer-wrap {
+    padding: 0 80px;
+    margin: 0 auto;
+    height: 100%;
+  }
+  html body footer .footer-wrap .btm-logo {
+    width: 120px;
+  }
+  html body footer .footer-wrap p {
+    width: 80%;
+    font-size: 16px;
+  }
+  html body footer .footer-wrap p span {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  html body footer .footer-wrap a {
+    width: 50px;
   }
   /* html */
 }
