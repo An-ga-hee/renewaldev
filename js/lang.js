@@ -1,5 +1,6 @@
 $.lang = {};
 $.lang.en = {
+    // index
     0: 'A company that helps you make your dreams come true in a virtual space<br>Find you who resembles your dream!',
     1: 'I will live each day <span>AS OWN SELF</span>',
     2: 'Design your <span>DREAM HOUSE</span>',
@@ -200,6 +201,7 @@ $.lang.ko = {
     28: '아이템, 음악, 스페이스 확장 등은<br> 서비스 내 MAUM재화로 구매할 수 있습니다',
     29: '자신의 다양한 이야기를 글, 사진, 오디오, 영상 등으로 담을 수 있습니다.',
     30: "'즐겨찾기', '좋아요', '댓글', '공유'등 소통이 많아질수록 마이스페이스는 더 매력적인 핫플레이스가 됩니다.",
+    // gallery
     31: '텍스트, 오디오, 영상을 통해 작품의 컨셉 설명 가능.<br> 내가 창작한 작품이나 소장하고 있는 작품 NFT 민팅, 갤러리 전시, 판매가능.',
     32: "아티스트 등급으로 업그레이드 된 사용자에게 제공됩니다.<br>링크나 QR코드를 통해 공유하고 초대할 수 있습니다.<br>'좋아요', '댓글'등 작품에 대한 피드백을 받을 수 있습니다.",
     33: '스페셜 콜렉터, 스페셜 아티스트 등급의 사용자에게 제공됩니다.<br> 도슨트(혹은 작가)가 등장하여 큐레이터 역할을 대행해 줄 수 있습니다.<br>월드의 유명장소에 위치하여 누구나 쉽게 방문할 수 있습니다.',
@@ -336,7 +338,7 @@ $.lang.ko = {
 };
 
 function setLanguage(currentLanguage) {
-    console.log('setLanguage', arguments);
+    // console.log('setLanguage', arguments);
 
     $('[data-langNum]').each(function () {
         var $this = $(this);

@@ -33,12 +33,17 @@ ul {
 
 /* h1 ~ h6 reset */
 h1,
+h2,
 h3,
 h4,
 h5,
 h6 {
   font-size: 13px;
-  font-weight: normal;
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.4;
 }
 
 /* button reset */
