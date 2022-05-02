@@ -1598,7 +1598,8 @@ html {
                             padding: 0 5vw;
 
                             h1 {
-                                font-size: 25px;
+                                width: 80%;
+                                font-size: 20px;
                                 font-weight: 800;
                                 text-transform: uppercase;
                             }
@@ -1610,86 +1611,266 @@ html {
                             }
                         }
                     }
+
+                    .archiving-txt {
+                        margin: 15vw 0 5vw;
+
+                        h2 {
+                            font-size: 20px;
+                            font-weight: 800;
+                        }
+
+                        h3 {
+                            font-size: 16px;
+                            margin: 10px 0 10px;
+                            font-weight: 700;
+                        }
+
+                        p {
+                            font-size: 14px;
+                        }
+                    }
                 }
 
                 #archiving {
-                    .myme-cont {
+                    .archiving-cont {
                         margin: 250px 0;
                         padding: 0 5vw;
-                        display: flex;
-                        flex-wrap: wrap;
-                        justify-content: center;
-                        gap: 15px;
 
-                        .myme-wrap {
-                            width: 300px;
-                            height: 300px;
-                            position: relative;
+                        .experience {
+                            width: 100%;
+                            margin: 0 auto;
+                            display: flex;
+                            flex-direction: column;
 
-                            h1 {
-                                width: 40px;
-                                height: 40px;
-                                color: #fff;
-                                background-color: #000;
-                                text-align: center;
-                                line-height: 40px;
-                                font-size: 20px;
-                                font-weight: 800;
-                            }
+                            .experience-img {
+                                width: 100%;
+                                display: flex;
+                                position: relative;
+                                height: 600px;
 
-                            p {
-                                color: #fff;
-                                padding: 5vw;
-                                position: absolute;
-                                bottom: 0;
-                                font-size: 14px;
-                                font-weight: 500;
+                                .card-img {
+                                    .img-box {
+                                        width: 145px;
+                                        height: 180px;
+                                        overflow: hidden;
+                                        box-shadow: 1px 0px 10px 1px #888;
 
-                                span {
-                                    font-weight: 800;
-                                    text-transform: uppercase;
+                                        img {
+                                            width: 100%;
+                                            height: 100%;
+                                            object-fit: cover;
+                                        }
+                                    }
+
+                                    .txt-box {
+                                        width: 145px;
+                                        overflow: hidden;
+                                        background-color: #fff;
+                                        box-shadow: 1px 1px 10px 1px #888;
+                                        padding: 2vw;
+                                        box-sizing: border-box;
+
+                                        h3 {
+                                            margin-bottom: 1vw;
+                                            font-size: 16px;
+                                            font-weight: 700;
+                                        }
+
+                                        p {
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+
+                                .img-left {
+                                    position: absolute;
+                                    top: 25%;
+                                    right: 53%;
+                                }
+
+                                .img-right {
+                                    position: absolute;
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 30px;
+                                    top: 0;
+                                    left: 53%;
                                 }
                             }
                         }
 
-                        .wrap-1 {
-                            background-image: linear-gradient(to top,
-                                    rgba(0, 0, 0, 1) 0,
-                                    rgba(0, 0, 0, 0) 50%),
-                                url(../img/popup-myMe1.png);
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            background-position: right, 80%;
+                        .space {
+                            width: 100%;
+
+                            .swiper {
+                                width: 100%;
+                            }
+
+                            .swiper-slide {
+                                background-position: center;
+                                background-size: cover;
+                                width: 90vw;
+                                height: 100%;
+                                margin-bottom: 50px;
+                            }
+
+                            .swiper-slide img {
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                box-shadow: 1px 1px 10px 1px #888;
+                            }
+
+                            .swiper-pagination-bullet {
+                                background-color: #000;
+                                width: 20px;
+                                border-radius: 3px;
+                                height: 5px;
+                            }
+
                         }
 
-                        .wrap-2 {
-                            background-image: linear-gradient(to top,
-                                    rgba(0, 0, 0, 1) 0,
-                                    rgba(0, 0, 0, 0) 50%),
-                                url(../img/popup-myMe2.png);
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            background-position: left, 30%;
+                        .channel {
+                            width: 100%;
+
+                            .video {
+                                width: 100%;
+                                position: relative;
+
+                                .img-box {
+                                    width: 100%;
+                                    height: 30vh;
+
+                                    iframe {
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                #artfair {
+                    .artfair-cont {
+                        margin: 200px 0 250px;
+                        padding: 0 5vw;
+
+                        .experience {
+                            width: 100%;
+                            margin: 0 auto;
+                            display: flex;
+                            flex-direction: column;
+
+                            .experience-img {
+                                width: 100%;
+                                display: flex;
+                                position: relative;
+                                height: 750px;
+
+                                .card-img {
+                                    .img-box {
+                                        width: 145px;
+                                        height: 180px;
+                                        overflow: hidden;
+                                        box-shadow: 1px 0px 10px 1px #888;
+
+                                        img {
+                                            width: 100%;
+                                            height: 100%;
+                                            object-fit: cover;
+                                        }
+                                    }
+
+                                    .txt-box {
+                                        width: 145px;
+                                        overflow: hidden;
+                                        background-color: #fff;
+                                        box-shadow: 1px 1px 10px 1px #888;
+                                        padding: 2vw;
+                                        box-sizing: border-box;
+
+                                        h3 {
+                                            margin-bottom: 1vw;
+                                            font-size: 16px;
+                                            font-weight: 700;
+                                        }
+
+                                        p {
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+
+                                .img-left {
+                                    position: absolute;display: flex;
+                                    flex-direction: column;
+                                    top: 20%;
+                                    right: 53%;
+                                    gap: 30px;
+                                }
+
+                                .img-right {
+                                    position: absolute;
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 30px;
+                                    top: 0;
+                                    left: 53%;
+                                }
+                            }
                         }
 
-                        .wrap-3 {
-                            background-image: linear-gradient(to top,
-                                    rgba(0, 0, 0, 1) 0,
-                                    rgba(0, 0, 0, 0) 50%),
-                                url(../img/popup-myMe3.png);
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            background-position: left, 0%;
+                        .space {
+                            width: 100%;
+
+                            .swiper {
+                                width: 100%;
+                            }
+
+                            .swiper-slide {
+                                background-position: center;
+                                background-size: cover;
+                                width: 90vw;
+                                height: 100%;
+                                margin-bottom: 50px;
+                            }
+
+                            .swiper-slide img {
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                box-shadow: 1px 1px 10px 1px #888;
+                            }
+
+                            .swiper-pagination-bullet {
+                                background-color: #000;
+                                width: 20px;
+                                border-radius: 3px;
+                                height: 5px;
+                            }
+
                         }
 
-                        .wrap-4 {
-                            background-image: linear-gradient(to top,
-                                    rgba(0, 0, 0, 1) 0,
-                                    rgba(0, 0, 0, 0) 50%),
-                                url(../img/popup-myMe4.png);
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            background-position: left, 0%;
+                        .channel {
+                            width: 100%;
+
+                            .video {
+                                width: 100%;
+                                position: relative;
+
+                                .img-box {
+                                    width: 100%;
+                                    height: 30vh;
+
+                                    iframe {
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                            }
                         }
                     }
 
