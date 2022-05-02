@@ -1738,6 +1738,11 @@ html body main #section4 #businessWrap:hover img {
           filter: brightness(40%);
 }
 
+html body main #section4-popup {
+  /* archiving */
+  /* artfair */
+}
+
 html body main #section4-popup .popup-wrap {
   height: 100vh;
   background-color: #fff;
@@ -2082,6 +2087,88 @@ html body main #section4-popup #artfair .artfair-cont .channel .video .img-box {
 html body main #section4-popup #artfair .artfair-cont .channel .video .img-box iframe {
   width: 100%;
   height: 100%;
+}
+
+html body main #section4-popup #jeju .jeju-cont {
+  margin: 200px 0 250px;
+  padding: 0 5vw;
+}
+
+html body main #section4-popup #jeju .jeju-cont .experience {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html body main #section4-popup #jeju .jeju-cont .experience .experience-img {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 600px;
+}
+
+html body main #section4-popup #jeju .jeju-cont .experience .experience-img .card-img .img-box {
+  width: 145px;
+  height: 180px;
+  overflow: hidden;
+  -webkit-box-shadow: 1px 0px 10px 1px #888;
+          box-shadow: 1px 0px 10px 1px #888;
+}
+
+html body main #section4-popup #jeju .jeju-cont .experience .experience-img .card-img .img-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+html body main #section4-popup #jeju .jeju-cont .experience .experience-img .card-img .txt-box {
+  width: 145px;
+  overflow: hidden;
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 10px 1px #888;
+          box-shadow: 1px 1px 10px 1px #888;
+  padding: 2vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html body main #section4-popup #jeju .jeju-cont .experience .experience-img .card-img .txt-box h3 {
+  margin-bottom: 1vw;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+html body main #section4-popup #jeju .jeju-cont .experience .experience-img .card-img .txt-box p {
+  font-size: 14px;
+}
+
+html body main #section4-popup #jeju .jeju-cont .experience .experience-img .img-left {
+  position: absolute;
+  top: 25%;
+  right: 53%;
+}
+
+html body main #section4-popup #jeju .jeju-cont .experience .experience-img .img-right {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  top: 0;
+  left: 53%;
 }
 
 html body main #section5 {

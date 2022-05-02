@@ -1753,6 +1753,7 @@ html {
 
                 }
 
+                /* archiving */
                 #artfair {
                     .artfair-cont {
                         margin: 200px 0 250px;
@@ -1805,7 +1806,8 @@ html {
                                 }
 
                                 .img-left {
-                                    position: absolute;display: flex;
+                                    position: absolute;
+                                    display: flex;
                                     flex-direction: column;
                                     top: 20%;
                                     right: 53%;
@@ -1874,6 +1876,77 @@ html {
                         }
                     }
 
+                }
+
+                /* artfair */
+                #jeju {
+                    .jeju-cont {
+                        margin: 200px 0 250px;
+                        padding: 0 5vw;
+
+                        .experience {
+                            width: 100%;
+                            margin: 0 auto;
+                            display: flex;
+                            flex-direction: column;
+
+                            .experience-img {
+                                width: 100%;
+                                display: flex;
+                                position: relative;
+                                height: 600px;
+
+                                .card-img {
+                                    .img-box {
+                                        width: 145px;
+                                        height: 180px;
+                                        overflow: hidden;
+                                        box-shadow: 1px 0px 10px 1px #888;
+
+                                        img {
+                                            width: 100%;
+                                            height: 100%;
+                                            object-fit: cover;
+                                        }
+                                    }
+
+                                    .txt-box {
+                                        width: 145px;
+                                        overflow: hidden;
+                                        background-color: #fff;
+                                        box-shadow: 1px 1px 10px 1px #888;
+                                        padding: 2vw;
+                                        box-sizing: border-box;
+
+                                        h3 {
+                                            margin-bottom: 1vw;
+                                            font-size: 16px;
+                                            font-weight: 700;
+                                        }
+
+                                        p {
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+
+                                .img-left {
+                                    position: absolute;
+                                    top: 25%;
+                                    right: 53%;
+                                }
+
+                                .img-right {
+                                    position: absolute;
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 30px;
+                                    top: 0;
+                                    left: 53%;
+                                }
+                            }
+                        }
+                    }
                 }
             }
 
