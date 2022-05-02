@@ -1559,6 +1559,143 @@ html {
             }
 
             /* section4 */
+
+            #section4-popup {
+                .popup-wrap {
+                    height: 100vh;
+                    background-color: #fff;
+                    z-index: 9999;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    display: flex;
+                    flex-direction: column;
+                    display: none;
+                    overflow-x: hidden;
+                    color: #000;
+
+                    .popup-cont {
+                        .popup-btn {
+                            color: #fff;
+                            font-size: 20px;
+                            width: 35px;
+                            height: 35px;
+                            border: 1px solid #000;
+                            background: #000;
+                            position: absolute;
+                            top: 10vw;
+                            right: 5vw;
+                            cursor: pointer;
+                            z-index: 9999;
+                        }
+
+                        .popup-txt {
+                            position: absolute;
+                            top: 10vw;
+                            left: 0;
+                            padding: 0 5vw;
+
+                            h1 {
+                                font-size: 25px;
+                                font-weight: 800;
+                                text-transform: uppercase;
+                            }
+
+                            p {
+                                font-size: 14px;
+                                margin-top: 20px;
+                                width: 80%;
+                            }
+                        }
+                    }
+                }
+
+                #archiving {
+                    .myme-cont {
+                        margin: 250px 0;
+                        padding: 0 5vw;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        gap: 15px;
+
+                        .myme-wrap {
+                            width: 300px;
+                            height: 300px;
+                            position: relative;
+
+                            h1 {
+                                width: 40px;
+                                height: 40px;
+                                color: #fff;
+                                background-color: #000;
+                                text-align: center;
+                                line-height: 40px;
+                                font-size: 20px;
+                                font-weight: 800;
+                            }
+
+                            p {
+                                color: #fff;
+                                padding: 5vw;
+                                position: absolute;
+                                bottom: 0;
+                                font-size: 14px;
+                                font-weight: 500;
+
+                                span {
+                                    font-weight: 800;
+                                    text-transform: uppercase;
+                                }
+                            }
+                        }
+
+                        .wrap-1 {
+                            background-image: linear-gradient(to top,
+                                    rgba(0, 0, 0, 1) 0,
+                                    rgba(0, 0, 0, 0) 50%),
+                                url(../img/popup-myMe1.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: right, 80%;
+                        }
+
+                        .wrap-2 {
+                            background-image: linear-gradient(to top,
+                                    rgba(0, 0, 0, 1) 0,
+                                    rgba(0, 0, 0, 0) 50%),
+                                url(../img/popup-myMe2.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: left, 30%;
+                        }
+
+                        .wrap-3 {
+                            background-image: linear-gradient(to top,
+                                    rgba(0, 0, 0, 1) 0,
+                                    rgba(0, 0, 0, 0) 50%),
+                                url(../img/popup-myMe3.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: left, 0%;
+                        }
+
+                        .wrap-4 {
+                            background-image: linear-gradient(to top,
+                                    rgba(0, 0, 0, 1) 0,
+                                    rgba(0, 0, 0, 0) 50%),
+                                url(../img/popup-myMe4.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: left, 0%;
+                        }
+                    }
+
+                }
+            }
+
             #section5 {
                 height: 100%;
 
