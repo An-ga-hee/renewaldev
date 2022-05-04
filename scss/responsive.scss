@@ -898,6 +898,238 @@
                     /* market-popup*/
                 }
 
+                #section4-popup {
+                    .popup-wrap {
+                        .popup-cont {
+                            .popup-btn {
+                                font-size: 25px;
+                                width: 40px;
+                                height: 40px;
+                            }
+
+                            .popup-txt {
+                                h1 {
+                                    font-size: 30px;
+                                }
+
+                                p {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+
+                        .archiving-txt {
+
+                            h2 {
+                                font-size: 25px;
+                            }
+
+                            h3 {
+                                font-size: 20px;
+                            }
+
+                            p {
+                                font-size: 18px;
+                            }
+                        }
+
+                    }
+
+                    #archiving {
+                        .archiving-cont {
+
+                            .experience {
+
+                                .experience-img {
+                                    height: 685px;
+
+                                    .card-img {
+                                        .img-box {
+                                            width: 180px;
+                                            height: 220px;
+                                        }
+
+                                        .txt-box {
+                                            width: 180px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .channel {
+                                .video {
+                                    .img-box {
+                                        height: 50vh;
+
+                                    }
+                                }
+                            }
+
+
+                        }
+                    }
+
+                    /* archiving */
+                    #artfair {
+                        .artfair-cont {
+                            .experience {
+
+                                .experience-img {
+                                    height: 885px;
+
+                                    .card-img {
+                                        .img-box {
+                                            width: 180px;
+                                            height: 220px;
+                                        }
+
+                                        .txt-box {
+                                            width: 180px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .channel {
+
+                                .video {
+
+                                    .img-box {
+                                        height: 50vh;
+
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    /* artfair */
+                    #jeju {
+                        .jeju-cont {
+                            .experience {
+
+                                .experience-img {
+                                    height: 670px;
+
+                                    .card-img {
+                                        .img-box {
+                                            width: 180px;
+                                            height: 220px;
+
+                                        }
+
+                                        .txt-box {
+                                            width: 180px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .concept {
+
+                                .concept-wrap {
+
+                                    .img-wrap {
+                                        width: 35vw;
+
+                                        .img-box {
+                                            width: 35vw;
+                                        }
+
+                                        .txt-box {
+
+                                            h1 {
+                                                font-size: 4vw;
+                                            }
+
+                                            h3 {
+                                                font-size: 20px;
+                                                line-height: 4vw;
+                                            }
+                                        }
+
+                                        p {
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .space {
+                                .swiper {
+
+                                    .swiper-slide {
+
+                                        .txt-box {
+
+                                            h1 {
+                                                font-size: 4vw;
+                                                font-weight: 800;
+                                            }
+
+                                            h3 {
+                                                font-size: 4vw;
+                                            }
+
+                                            p {
+                                                font-size: 18px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .channel {
+                                .video {
+                                    .img-box {
+                                        iframe {
+                                            height: 50vh;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .chapter {
+                                ul {
+                                    display: flex;
+                                    gap: 10px;
+                                    justify-content: center;
+                                    flex-wrap: wrap;
+                                    flex-direction: column;
+                                    margin-top: 30px;
+
+                                    li {
+                                        position: relative;
+                                        margin: 0 auto;
+
+                                        .img-box {
+                                            width: 500px;
+
+                                            iframe {
+                                                width: 100%;
+                                                height: 33vh;
+                                                box-shadow: 1px 1px 10px 1px #888;
+                                            }
+
+                                        }
+
+                                        p {
+                                            position: absolute;
+                                            bottom: 0;
+                                            padding: 20px;
+                                            color: #fff;
+                                            font-size: 18px;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+
                 /* section2 */
                 #section5 {
                     .crew {
@@ -1331,6 +1563,255 @@
                 }
 
                 /* section4 */
+                #section4-popup {
+                    .popup-wrap {
+                        .popup-cont {
+                            .popup-btn {
+                                right: 10vw;
+                            }
+
+                            .popup-txt {
+                                padding: 0 10vw;
+                            }
+                        }
+
+                        .archiving-txt {
+
+                            h2 {
+                                font-size: 25px;
+                            }
+
+                            h3 {
+                                font-size: 20px;
+                            }
+
+                            p {
+                                font-size: 18px;
+                            }
+                        }
+
+                    }
+
+                    #archiving {
+
+
+                        .archiving-cont {
+                            padding: 0 10vw;
+
+                            .experience {
+
+                                .experience-img {
+                                    height: 770px;
+
+                                    .card-img {
+                                        .img-box {
+                                            width: 220px;
+                                            height: 260px;
+                                        }
+
+                                        .txt-box {
+                                            width: 220px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .space {
+                                .swiper-slide {
+                                    width: 70vw;
+                                    height: 100%;
+                                }
+
+                            }
+
+                            .channel {
+                                .video {
+                                    .img-box {
+                                        height: 50vh;
+
+                                    }
+                                }
+                            }
+
+
+                        }
+                    }
+
+                    /* archiving */
+                    #artfair {
+
+                        .artfair-cont {
+                            padding: 0 10vw;
+
+                            .experience {
+
+                                .experience-img {
+                                    height: 985px;
+
+                                    .card-img {
+                                        .img-box {
+                                            width: 220px;
+                                            height: 260px;
+                                        }
+
+                                        .txt-box {
+                                            width: 220px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .space {
+                                .swiper-slide {
+                                    width: 70vw;
+                                    height: 100%;
+                                }
+
+                            }
+
+                            .channel {
+
+                                .video {
+
+                                    .img-box {
+                                        height: 50vh;
+
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    /* artfair */
+                    #jeju {
+
+                        .jeju-cont {
+                            padding: 0 10vw;
+
+                            .experience {
+
+                                .experience-img {
+                                    height: 770px;
+
+                                    .card-img {
+                                        .img-box {
+                                            width: 220px;
+                                            height: 260px;
+                                        }
+
+                                        .txt-box {
+                                            width: 220px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .concept {
+
+                                .concept-wrap {
+
+                                    .img-wrap {
+                                        width: 30vw;
+
+                                        .img-box {
+                                            width: 30vw;
+                                        }
+
+                                        .txt-box {
+
+                                            h1 {
+                                                font-size: 3vw;
+                                            }
+
+                                            h3 {
+                                                font-size: 20px;
+                                                line-height: 4vw;
+                                            }
+                                        }
+
+                                        p {
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .space {
+                                .swiper {
+                                    .swiper-slide {
+                                        width: 70vw;
+                                        height: 100%;
+
+                                        .txt-box {
+
+                                            h1 {
+                                                font-size: 3vw;
+                                                font-weight: 800;
+                                            }
+
+                                            h3 {
+                                                font-size: 3vw;
+                                                margin: 0.5vw 0;
+                                            }
+
+                                            p {
+                                                font-size: 18px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .channel {
+                                .video {
+                                    .img-box {
+                                        iframe {
+                                            height: 50vh;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .chapter {
+                                ul {
+                                    display: flex;
+                                    gap: 10px;
+                                    justify-content: center;
+                                    flex-wrap: wrap;
+                                    flex-direction: column;
+                                    margin-top: 30px;
+
+                                    li {
+                                        position: relative;
+                                        margin: 0 auto;
+
+                                        .img-box {
+                                            width: 500px;
+
+                                            iframe {
+                                                width: 100%;
+                                                height: 33vh;
+                                                box-shadow: 1px 1px 10px 1px #888;
+                                            }
+
+                                        }
+
+                                        p {
+                                            position: absolute;
+                                            bottom: 0;
+                                            padding: 20px;
+                                            color: #fff;
+                                            font-size: 18px;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
 
                 #section5 {
                     .crew {
@@ -2111,6 +2592,307 @@
                 }
 
                 /* section4 */
+
+                #section4-popup {
+                    .popup-wrap {
+                        .popup-cont {
+                            .popup-btn {
+                                top: 5vw;
+                                right: 18vw;
+                                width: 50px;
+                                height: 50px;
+                            }
+
+                            .popup-txt {
+                                top: 5vw;
+                                padding: 0 18vw;
+
+                                h1 {
+                                    font-size: 55px;
+                                    font-weight: 800;
+                                    text-transform: uppercase;
+                                }
+
+                                p {
+                                    font-size: 24px;
+                                    margin-top: 20px;
+                                    width: 90%;
+                                }
+                            }
+                        }
+
+                        .archiving-txt {
+                            margin: 10vw 0 2vw;
+
+                            h2 {
+                                font-size: 35px;
+                            }
+
+                            h3 {
+                                font-size: 20px;
+                            }
+
+                            p {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+
+                    #archiving {
+
+                        .archiving-cont {
+                            padding: 3vw 18vw;
+
+                            .experience {
+
+                                .experience-img {
+                                    height: 1000px;
+
+                                    .card-img {
+                                        .img-box {
+                                            width: 300px;
+                                            height: 380px;
+                                        }
+
+                                        .txt-box {
+                                            width: 300px;
+                                            padding: 1vw;
+
+                                            h3 {
+                                                margin-bottom: 1vw;
+                                                font-size: 22px;
+                                                font-weight: 700;
+                                            }
+
+                                            p {
+                                                font-size: 18px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .space {
+                                .swiper-slide {
+                                    width: 45vw;
+                                    height: 100%;
+                                }
+
+                            }
+
+                            .channel {
+                                .video {
+                                    .img-box {
+                                        height: 60vh;
+
+                                    }
+                                }
+                            }
+
+
+                        }
+                    }
+
+                    /* archiving */
+                    #artfair {
+
+
+                        .artfair-cont {
+                            padding: 3vw 18vw;
+
+                            .experience {
+
+                                .experience-img {
+                                    height: 1300px;
+
+                                    .card-img {
+                                        .img-box {
+                                            width: 300px;
+                                            height: 380px;
+                                        }
+
+                                        .txt-box {
+                                            width: 300px;
+                                            padding: 1vw;
+
+                                            h3 {
+                                                margin-bottom: 1vw;
+                                                font-size: 22px;
+                                                font-weight: 700;
+                                            }
+
+                                            p {
+                                                font-size: 18px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .space {
+                                .swiper-slide {
+                                    width: 45vw;
+                                    height: 100%;
+                                }
+
+                            }
+
+                            .channel {
+
+                                .video {
+
+                                    .img-box {
+                                        height: 60vh;
+
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    /* artfair */
+                    #jeju {
+
+                        .jeju-cont {
+                            padding: 3vw 18vw;
+
+                            .experience {
+                                .experience-img {
+                                    height: 1000px;
+
+                                    .card-img {
+                                        .img-box {
+                                            width: 300px;
+                                            height: 380px;
+                                        }
+
+                                        .txt-box {
+                                            width: 300px;
+                                            padding: 1vw;
+
+                                            h3 {
+                                                margin-bottom: 1vw;
+                                                font-size: 22px;
+                                                font-weight: 700;
+                                            }
+
+                                            p {
+                                                font-size: 18px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .concept {
+
+                                .concept-wrap {
+                                    gap: 2vw;
+
+                                    .img-wrap {
+                                        width: 14vw;
+
+                                        .img-box {
+                                            width: 14vw;
+                                        }
+
+                                        .txt-box {
+                                            width: 100%;
+
+                                            h1 {
+                                                font-size: 2vw;
+                                            }
+
+                                            h3 {
+                                                font-size: 20px;
+                                                line-height: 2vw;
+                                            }
+                                        }
+
+                                        p {
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .space {
+                                .swiper {
+                                    .swiper-slide {
+                                        width: 45vw;
+                                        height: 100%;
+
+                                        .txt-box {
+
+                                            h1 {
+                                                font-size: 2vw;
+                                                font-weight: 800;
+                                            }
+
+                                            h3 {
+                                                font-size: 2vw;
+                                                margin: 0.5vw 0;
+                                            }
+
+                                            p {
+                                                font-size: 20px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .channel {
+                                .video {
+                                    .img-box {
+                                        iframe {
+                                            height: 60vh;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .chapter {
+                                ul {
+                                    display: flex;
+                                    gap: 10px;
+                                    justify-content: center;
+                                    flex-wrap: wrap;
+                                    flex-direction: column;
+                                    margin-top: 30px;
+
+                                    li {
+                                        position: relative;
+                                        margin: 0 auto;
+
+                                        .img-box {
+                                            width: 800px;
+
+                                            iframe {
+                                                width: 100%;
+                                                height: 43vh;
+                                                box-shadow: 1px 1px 10px 1px #888;
+                                            }
+
+                                        }
+
+                                        p {
+                                            position: absolute;
+                                            bottom: 0;
+                                            padding: 20px;
+                                            color: #fff;
+                                            font-size: 18px;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+
                 #section5 {
                     .crew {
                         padding: 200px 0 100px;

@@ -542,6 +542,132 @@
   html body main #section3-popup #market-popup .market-cont .nft-community .txt-wrap .txt-content ul li {
     font-size: 18px;
   }
+  html body main #section4-popup {
+    /* archiving */
+    /* artfair */
+  }
+  html body main #section4-popup .popup-wrap .popup-cont .popup-btn {
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+  }
+  html body main #section4-popup .popup-wrap .popup-cont .popup-txt h1 {
+    font-size: 30px;
+  }
+  html body main #section4-popup .popup-wrap .popup-cont .popup-txt p {
+    font-size: 18px;
+  }
+  html body main #section4-popup .popup-wrap .archiving-txt h2 {
+    font-size: 25px;
+  }
+  html body main #section4-popup .popup-wrap .archiving-txt h3 {
+    font-size: 20px;
+  }
+  html body main #section4-popup .popup-wrap .archiving-txt p {
+    font-size: 18px;
+  }
+  html body main #section4-popup #archiving .archiving-cont .experience .experience-img {
+    height: 685px;
+  }
+  html body main #section4-popup #archiving .archiving-cont .experience .experience-img .card-img .img-box {
+    width: 180px;
+    height: 220px;
+  }
+  html body main #section4-popup #archiving .archiving-cont .experience .experience-img .card-img .txt-box {
+    width: 180px;
+  }
+  html body main #section4-popup #archiving .archiving-cont .channel .video .img-box {
+    height: 50vh;
+  }
+  html body main #section4-popup #artfair .artfair-cont .experience .experience-img {
+    height: 885px;
+  }
+  html body main #section4-popup #artfair .artfair-cont .experience .experience-img .card-img .img-box {
+    width: 180px;
+    height: 220px;
+  }
+  html body main #section4-popup #artfair .artfair-cont .experience .experience-img .card-img .txt-box {
+    width: 180px;
+  }
+  html body main #section4-popup #artfair .artfair-cont .channel .video .img-box {
+    height: 50vh;
+  }
+  html body main #section4-popup #jeju .jeju-cont .experience .experience-img {
+    height: 670px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .experience .experience-img .card-img .img-box {
+    width: 180px;
+    height: 220px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .experience .experience-img .card-img .txt-box {
+    width: 180px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap .img-wrap {
+    width: 35vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap .img-wrap .img-box {
+    width: 35vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap .img-wrap .txt-box h1 {
+    font-size: 4vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap .img-wrap .txt-box h3 {
+    font-size: 20px;
+    line-height: 4vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap .img-wrap p {
+    font-size: 16px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .space .swiper .swiper-slide .txt-box h1 {
+    font-size: 4vw;
+    font-weight: 800;
+  }
+  html body main #section4-popup #jeju .jeju-cont .space .swiper .swiper-slide .txt-box h3 {
+    font-size: 4vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .space .swiper .swiper-slide .txt-box p {
+    font-size: 18px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .channel .video .img-box iframe {
+    height: 50vh;
+  }
+  html body main #section4-popup #jeju .jeju-cont .chapter ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 30px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .chapter ul li {
+    position: relative;
+    margin: 0 auto;
+  }
+  html body main #section4-popup #jeju .jeju-cont .chapter ul li .img-box {
+    width: 500px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .chapter ul li .img-box iframe {
+    width: 100%;
+    height: 33vh;
+    -webkit-box-shadow: 1px 1px 10px 1px #888;
+            box-shadow: 1px 1px 10px 1px #888;
+  }
+  html body main #section4-popup #jeju .jeju-cont .chapter ul li p {
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+  }
   html body main #section5 .crew .crew-dep .crew-title h2 {
     font-size: 28px;
   }
@@ -868,6 +994,149 @@
   }
   html body main #section4 #businessWrap .business-txt h2 {
     font-size: 35px;
+  }
+  html body main #section4-popup {
+    /* archiving */
+    /* artfair */
+  }
+  html body main #section4-popup .popup-wrap .popup-cont .popup-btn {
+    right: 10vw;
+  }
+  html body main #section4-popup .popup-wrap .popup-cont .popup-txt {
+    padding: 0 10vw;
+  }
+  html body main #section4-popup .popup-wrap .archiving-txt h2 {
+    font-size: 25px;
+  }
+  html body main #section4-popup .popup-wrap .archiving-txt h3 {
+    font-size: 20px;
+  }
+  html body main #section4-popup .popup-wrap .archiving-txt p {
+    font-size: 18px;
+  }
+  html body main #section4-popup #archiving .archiving-cont {
+    padding: 0 10vw;
+  }
+  html body main #section4-popup #archiving .archiving-cont .experience .experience-img {
+    height: 770px;
+  }
+  html body main #section4-popup #archiving .archiving-cont .experience .experience-img .card-img .img-box {
+    width: 220px;
+    height: 260px;
+  }
+  html body main #section4-popup #archiving .archiving-cont .experience .experience-img .card-img .txt-box {
+    width: 220px;
+  }
+  html body main #section4-popup #archiving .archiving-cont .space .swiper-slide {
+    width: 70vw;
+    height: 100%;
+  }
+  html body main #section4-popup #archiving .archiving-cont .channel .video .img-box {
+    height: 50vh;
+  }
+  html body main #section4-popup #artfair .artfair-cont {
+    padding: 0 10vw;
+  }
+  html body main #section4-popup #artfair .artfair-cont .experience .experience-img {
+    height: 985px;
+  }
+  html body main #section4-popup #artfair .artfair-cont .experience .experience-img .card-img .img-box {
+    width: 220px;
+    height: 260px;
+  }
+  html body main #section4-popup #artfair .artfair-cont .experience .experience-img .card-img .txt-box {
+    width: 220px;
+  }
+  html body main #section4-popup #artfair .artfair-cont .space .swiper-slide {
+    width: 70vw;
+    height: 100%;
+  }
+  html body main #section4-popup #artfair .artfair-cont .channel .video .img-box {
+    height: 50vh;
+  }
+  html body main #section4-popup #jeju .jeju-cont {
+    padding: 0 10vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .experience .experience-img {
+    height: 770px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .experience .experience-img .card-img .img-box {
+    width: 220px;
+    height: 260px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .experience .experience-img .card-img .txt-box {
+    width: 220px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap .img-wrap {
+    width: 30vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap .img-wrap .img-box {
+    width: 30vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap .img-wrap .txt-box h1 {
+    font-size: 3vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap .img-wrap .txt-box h3 {
+    font-size: 20px;
+    line-height: 4vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap .img-wrap p {
+    font-size: 16px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .space .swiper .swiper-slide {
+    width: 70vw;
+    height: 100%;
+  }
+  html body main #section4-popup #jeju .jeju-cont .space .swiper .swiper-slide .txt-box h1 {
+    font-size: 3vw;
+    font-weight: 800;
+  }
+  html body main #section4-popup #jeju .jeju-cont .space .swiper .swiper-slide .txt-box h3 {
+    font-size: 3vw;
+    margin: 0.5vw 0;
+  }
+  html body main #section4-popup #jeju .jeju-cont .space .swiper .swiper-slide .txt-box p {
+    font-size: 18px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .channel .video .img-box iframe {
+    height: 50vh;
+  }
+  html body main #section4-popup #jeju .jeju-cont .chapter ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 30px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .chapter ul li {
+    position: relative;
+    margin: 0 auto;
+  }
+  html body main #section4-popup #jeju .jeju-cont .chapter ul li .img-box {
+    width: 500px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .chapter ul li .img-box iframe {
+    width: 100%;
+    height: 33vh;
+    -webkit-box-shadow: 1px 1px 10px 1px #888;
+            box-shadow: 1px 1px 10px 1px #888;
+  }
+  html body main #section4-popup #jeju .jeju-cont .chapter ul li p {
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
   }
   html body main #section5 .crew .crew-dep .crew-title h2 {
     font-size: 30px;
@@ -1533,6 +1802,199 @@
     top: 0%;
     right: 0%;
     text-align: right;
+  }
+  html body main #section4-popup {
+    /* archiving */
+    /* artfair */
+  }
+  html body main #section4-popup .popup-wrap .popup-cont .popup-btn {
+    top: 5vw;
+    right: 18vw;
+    width: 50px;
+    height: 50px;
+  }
+  html body main #section4-popup .popup-wrap .popup-cont .popup-txt {
+    top: 5vw;
+    padding: 0 18vw;
+  }
+  html body main #section4-popup .popup-wrap .popup-cont .popup-txt h1 {
+    font-size: 55px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  html body main #section4-popup .popup-wrap .popup-cont .popup-txt p {
+    font-size: 24px;
+    margin-top: 20px;
+    width: 90%;
+  }
+  html body main #section4-popup .popup-wrap .archiving-txt {
+    margin: 10vw 0 2vw;
+  }
+  html body main #section4-popup .popup-wrap .archiving-txt h2 {
+    font-size: 35px;
+  }
+  html body main #section4-popup .popup-wrap .archiving-txt h3 {
+    font-size: 20px;
+  }
+  html body main #section4-popup .popup-wrap .archiving-txt p {
+    font-size: 18px;
+  }
+  html body main #section4-popup #archiving .archiving-cont {
+    padding: 3vw 18vw;
+  }
+  html body main #section4-popup #archiving .archiving-cont .experience .experience-img {
+    height: 1000px;
+  }
+  html body main #section4-popup #archiving .archiving-cont .experience .experience-img .card-img .img-box {
+    width: 300px;
+    height: 380px;
+  }
+  html body main #section4-popup #archiving .archiving-cont .experience .experience-img .card-img .txt-box {
+    width: 300px;
+    padding: 1vw;
+  }
+  html body main #section4-popup #archiving .archiving-cont .experience .experience-img .card-img .txt-box h3 {
+    margin-bottom: 1vw;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  html body main #section4-popup #archiving .archiving-cont .experience .experience-img .card-img .txt-box p {
+    font-size: 18px;
+  }
+  html body main #section4-popup #archiving .archiving-cont .space .swiper-slide {
+    width: 45vw;
+    height: 100%;
+  }
+  html body main #section4-popup #archiving .archiving-cont .channel .video .img-box {
+    height: 60vh;
+  }
+  html body main #section4-popup #artfair .artfair-cont {
+    padding: 3vw 18vw;
+  }
+  html body main #section4-popup #artfair .artfair-cont .experience .experience-img {
+    height: 1300px;
+  }
+  html body main #section4-popup #artfair .artfair-cont .experience .experience-img .card-img .img-box {
+    width: 300px;
+    height: 380px;
+  }
+  html body main #section4-popup #artfair .artfair-cont .experience .experience-img .card-img .txt-box {
+    width: 300px;
+    padding: 1vw;
+  }
+  html body main #section4-popup #artfair .artfair-cont .experience .experience-img .card-img .txt-box h3 {
+    margin-bottom: 1vw;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  html body main #section4-popup #artfair .artfair-cont .experience .experience-img .card-img .txt-box p {
+    font-size: 18px;
+  }
+  html body main #section4-popup #artfair .artfair-cont .space .swiper-slide {
+    width: 45vw;
+    height: 100%;
+  }
+  html body main #section4-popup #artfair .artfair-cont .channel .video .img-box {
+    height: 60vh;
+  }
+  html body main #section4-popup #jeju .jeju-cont {
+    padding: 3vw 18vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .experience .experience-img {
+    height: 1000px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .experience .experience-img .card-img .img-box {
+    width: 300px;
+    height: 380px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .experience .experience-img .card-img .txt-box {
+    width: 300px;
+    padding: 1vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .experience .experience-img .card-img .txt-box h3 {
+    margin-bottom: 1vw;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  html body main #section4-popup #jeju .jeju-cont .experience .experience-img .card-img .txt-box p {
+    font-size: 18px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap {
+    gap: 2vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap .img-wrap {
+    width: 14vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap .img-wrap .img-box {
+    width: 14vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap .img-wrap .txt-box {
+    width: 100%;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap .img-wrap .txt-box h1 {
+    font-size: 2vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap .img-wrap .txt-box h3 {
+    font-size: 20px;
+    line-height: 2vw;
+  }
+  html body main #section4-popup #jeju .jeju-cont .concept .concept-wrap .img-wrap p {
+    font-size: 16px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .space .swiper .swiper-slide {
+    width: 45vw;
+    height: 100%;
+  }
+  html body main #section4-popup #jeju .jeju-cont .space .swiper .swiper-slide .txt-box h1 {
+    font-size: 2vw;
+    font-weight: 800;
+  }
+  html body main #section4-popup #jeju .jeju-cont .space .swiper .swiper-slide .txt-box h3 {
+    font-size: 2vw;
+    margin: 0.5vw 0;
+  }
+  html body main #section4-popup #jeju .jeju-cont .space .swiper .swiper-slide .txt-box p {
+    font-size: 20px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .channel .video .img-box iframe {
+    height: 60vh;
+  }
+  html body main #section4-popup #jeju .jeju-cont .chapter ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 30px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .chapter ul li {
+    position: relative;
+    margin: 0 auto;
+  }
+  html body main #section4-popup #jeju .jeju-cont .chapter ul li .img-box {
+    width: 800px;
+  }
+  html body main #section4-popup #jeju .jeju-cont .chapter ul li .img-box iframe {
+    width: 100%;
+    height: 43vh;
+    -webkit-box-shadow: 1px 1px 10px 1px #888;
+            box-shadow: 1px 1px 10px 1px #888;
+  }
+  html body main #section4-popup #jeju .jeju-cont .chapter ul li p {
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
   }
   html body main #section5 .crew {
     padding: 200px 0 100px;
