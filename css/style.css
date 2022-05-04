@@ -310,6 +310,7 @@ html body main {
   /* section3 */
   /* section3-popup */
   /* section4 */
+  /* section4-popup */
   /* section5 */
 }
 
@@ -567,8 +568,8 @@ html body main #transition .pixel-grid div {
   height: 100%;
   -webkit-transform-origin: center;
           transform-origin: center;
-  -webkit-animation: loader 4s infinite;
-          animation: loader 4s infinite;
+  -webkit-animation: loader 0.5s infinite;
+          animation: loader 0.5s infinite;
 }
 
 html body main #transition .pixel-grid .pixel-grid__pixel {
@@ -587,8 +588,8 @@ html body main #transition .pixel-grid .grid-1 {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-area: 1 / 4 / 2 / 5;
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
 }
 
 html body main #transition .pixel-grid .grid-2 {
@@ -607,8 +608,8 @@ html body main #transition .pixel-grid .grid-3 {
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-area: 2 / 3 / 3 / 4;
-  -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
 }
 
 html body main #transition .pixel-grid .grid-4 {
@@ -627,8 +628,8 @@ html body main #transition .pixel-grid .grid-5 {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-area: 3 / 4 / 4 / 5;
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 html body main #transition .pixel-grid .grid-6 {
@@ -649,8 +650,8 @@ html body main #transition .pixel-grid .grid-7 {
   -ms-grid-column-span: 1;
   grid-area: 2 / 2 / 3 / 3;
   display: none;
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
 }
 
 html body main #transition .pixel-grid .grid-8 {
@@ -660,45 +661,31 @@ html body main #transition .pixel-grid .grid-8 {
   -ms-grid-column-span: 1;
   grid-area: 3 / 3 / 4 / 4;
   display: none;
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
 }
 
 @-webkit-keyframes loader {
   0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    opacity: 1;
   }
-  40% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  80% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+  50% {
+    opacity: 1;
   }
   100% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    opacity: 0;
   }
 }
 
 @keyframes loader {
   0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    opacity: 1;
   }
-  40% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  80% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+  50% {
+    opacity: 1;
   }
   100% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    opacity: 0;
   }
 }
 

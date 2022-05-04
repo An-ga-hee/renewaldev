@@ -319,6 +319,188 @@
                     }
                 }
 
+                #section4-popup {
+                    .popup-wrap {
+                        .popup-cont {
+                            .popup-txt {
+                                p {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+
+                        .archiving-txt {
+
+                            h2 {
+                                font-size: 22px;
+                            }
+
+                            h3 {
+                                font-size: 18px;
+                            }
+
+                            p {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+                    #archiving {
+                        .archiving-cont {
+
+                            .experience {
+
+                                .experience-img {
+                                    height: 620px;
+
+                                    .card-img {
+                                        .img-box {
+                                            width: 160px;
+                                            height: 195px;
+                                        }
+
+                                        .txt-box {
+                                            width: 160px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .channel {
+                                width: 100%;
+
+                                .video {
+                                    width: 100%;
+                                    position: relative;
+
+                                    .img-box {
+                                        width: 100%;
+                                        height: 33vh;
+
+                                        iframe {
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                    }
+                                }
+                            }
+
+
+                        }
+                    }
+
+                    /* archiving */
+                    #artfair {
+                        .artfair-cont {
+                            .experience {
+
+                                .experience-img {
+                                    height: 800px;
+
+                                    .card-img {
+                                        .img-box {
+                                            width: 160px;
+                                            height: 195px;
+                                        }
+
+                                        .txt-box {
+                                            width: 160px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .channel {
+
+                                .video {
+
+                                    .img-box {
+                                        width: 100%;
+                                        height: 33vh;
+
+                                        iframe {
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    /* artfair */
+                    #jeju {
+                        .jeju-cont {
+                            .experience {
+
+                                .experience-img {
+                                    height: 600px;
+
+                                    .card-img {
+                                        .img-box {
+                                            width: 160px;
+                                            height: 195px;
+
+                                        }
+
+                                        .txt-box {
+                                            width: 160px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .channel {
+                                .video {
+                                    .img-box {
+                                        iframe {
+                                            height: 33vh;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .chapter {
+                                ul {
+                                    display: flex;
+                                    gap: 10px;
+                                    justify-content: center;
+                                    flex-wrap: wrap;
+                                    flex-direction: column;
+                                    margin-top: 30px;
+
+                                    li {
+                                        position: relative;
+                                        margin: 0 auto;
+
+                                        .img-box {
+                                            width: 400px;
+
+                                            iframe {
+                                                width: 100%;
+                                                height: 27vh;
+                                                box-shadow: 1px 1px 10px 1px #888;
+                                            }
+
+                                        }
+
+                                        p {
+                                            position: absolute;
+                                            bottom: 0;
+                                            padding: 20px;
+                                            color: #fff;
+                                            font-size: 18px;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+
                 /* section4 */
                 #section5 {
                     .crew {
