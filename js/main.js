@@ -135,7 +135,7 @@ const spanes = document.getElementsByClassName("popup-btn");
 const funcs = [];
 
 function Modal(num) {
-  return function () {
+  return () => {
     btns[num].onclick = function () {
       modals[num].style.display = "block";
       console.log(num);
@@ -156,12 +156,20 @@ for (var j = 0; j < btns.length; j++) {
   funcs[j]();
 }
 
-// Modal 영역 밖을 클릭하면 Modal close
-window.onclick = function (event) {
-  if (event.target.className == "popup-wrap") {
-    event.target.style.display = "none";
+$(document).on('click', '.popup-btn', function () {
+  window.history.back();
+}).on('click', '.image-grid__item', function () {
+  window.history.pushState({}, 'modal', '/modal');
+  modals.open();
+});
+
+window.onpopstate = history.onpushstate = function (e) {
+  if (window.location.href.split('/').pop().indexOf('modal') === -
+    1) { // 마지막 segment가 cards라면 모달이 아닌 리스트인 상태이어야한다.
+    modals.close(); // 현재의 모달을 닫는다.
   }
-};
+}
+
 
 /* healing PC */
 function slidesPlugin(activeSlide = 0) {
