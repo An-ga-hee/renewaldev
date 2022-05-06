@@ -156,12 +156,6 @@ for (var j = 0; j < btns.length; j++) {
   funcs[j]();
 }
 
-// Modal 영역 밖을 클릭하면 Modal close
-window.onclick = function (event) {
-  if (event.target.className == "popup-wrap") {
-    event.target.style.display = "none";
-  }
-};
 
 /* healing PC */
 function slidesPlugin(activeSlide = 0) {
