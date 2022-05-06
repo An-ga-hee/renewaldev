@@ -157,6 +157,8 @@ for (var j = 0; j < btns.length; j++) {
 }
 
 
+
+
 /* healing PC */
 function slidesPlugin(activeSlide = 0) {
   const slides = document.querySelectorAll(".healing-slide");
