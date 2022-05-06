@@ -181,3 +181,5 @@ function slidesPlugin(activeSlide = 0) {
 }
 
 slidesPlugin();
+
+
