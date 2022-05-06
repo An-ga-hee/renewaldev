@@ -495,7 +495,8 @@ html {
                 position: relative;
                 z-index: 1000;
                 background-color: #000;
-// overflow: hidden;
+
+                // overflow: hidden;
                 .pixel-grid {
                     position: absolute;
                     right: 0;
@@ -636,28 +637,25 @@ html {
 
                 .mission {
                     .vision-img {
-                        background-image: linear-gradient(to top,
+                        background-image: url(../img/mission.avif), linear-gradient(to top,
                                 rgba(0, 0, 0, 1) 0,
-                                rgba(0, 0, 0, 0) 50%),
-                            url(../img/mission.png);
+                                rgba(0, 0, 0, 0) 50%);
                     }
                 }
 
                 .vision {
                     .vision-img {
-                        background-image: linear-gradient(to top,
+                        background-image: url(../img/vision.avif), linear-gradient(to top,
                                 rgba(0, 0, 0, 1) 0,
-                                rgba(0, 0, 0, 0) 50%),
-                            url(../img/vision.png);
+                                rgba(0, 0, 0, 0) 50%);
                     }
                 }
 
                 .strength {
                     .vision-img {
-                        background-image: linear-gradient(to top,
+                        background-image: url(../img/strength.avif), linear-gradient(to top,
                                 rgba(0, 0, 0, 1) 0,
-                                rgba(0, 0, 0, 0) 50%),
-                            url(../img/strength.png);
+                                rgba(0, 0, 0, 0) 50%);
                     }
                 }
             }
@@ -1788,7 +1786,11 @@ html {
                                         box-shadow: 1px 1px 10px 1px #888;
                                         padding: 2vw;
                                         box-sizing: border-box;
-                                        .small {font-size: 13.5px;}
+
+                                        .small {
+                                            font-size: 13.5px;
+                                        }
+
                                         h3 {
                                             margin-bottom: 1vw;
                                             font-size: 16px;
