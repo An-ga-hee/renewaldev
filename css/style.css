@@ -149,9 +149,9 @@ html body main #section1 .swiper-pagination { display: none; }
 
 html body main #section1 .scroll { display: none; }
 
-html body main #container { height: 225px; background-color: #000; position: relative; }
+html body main #container { height: 225px; max-height: 100%; background-color: #000; position: relative; }
 
-html body main #container .transition { overflow: hidden; position: absolute; top: 178%; }
+html body main #container .transition { overflow: hidden; position: absolute; top: 0%; }
 
 html body main #container .transition div { float: left; }
 

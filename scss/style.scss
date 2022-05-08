@@ -491,12 +491,13 @@ html {
       /* section1*/
       #container {
         height: 225px;
+        max-height: 100%;
         background-color: #000;
         position: relative;
         .transition {
           overflow: hidden;
           position: absolute;
-          top: 178%;
+          top: 0%;
           div {
             float: left;
           }
