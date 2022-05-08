@@ -127,7 +127,10 @@
             </div>
         </section>
         <!-- section1 -->
-        <section id="transition">
+        <div id="container">
+            <div class="transition"></div>
+          </div>
+        <!-- <section id="transition">
             <div class="pixel-grid">
                 <div class="pixel-grid__pixel grid-1"></div>
                 <div class="pixel-grid__pixel grid-2"></div>
@@ -138,7 +141,7 @@
                 <div class="pixel-grid__pixel grid-7"></div>
                 <div class="pixel-grid__pixel grid-8"></div>
             </div>
-        </section>
+        </section> -->
         <!-- transition -->
         <section id="section2">
             <div id="vision" class="mission">
@@ -1521,6 +1524,84 @@
     <script src="js/jquery-3.6.0.js" async></script>
     <script src="js/main.js" async></script>
     <script src="js/lang.js" async></script>
+    <script> 
+    var rows = 8;
+        var columms = 14;
+        var speed = 250;
+        var pixelSize = 70;
+        var cssClasses = ["white"];
+        window.onload = function () {
+          if (window.innerHeight >= 600) {
+            rows = rows;
+            // columms = rows / 2;
+          }
+          var c = s(".transition").style;
+          c.width = rows * pixelSize * 3 + "px";
+          // c.height = columms * pixelSize * 2 + "px";
+          // c.marginLeft = -(rows * pixelSize) / 3 + "px";
+          c.marginTop = -(rows * pixelSize) * 1.2 + "px";
+          seedGen(new Date().getTime().toString().slice(-7) + "0000");
+  
+          function toggle() {
+            var revolutions = setInterval(function () {
+              generateMap();
+            }, speed);
+          }
+          toggle();
+        };
+  
+        function generateMap(e) {
+          var map = [];
+          var count = 0;
+          for (var i = 0; i < rows; i++) {
+            map[i] = [];
+            for (var j = 0; j < rows; j++) {
+              if (e) {
+                if (count > e.length) {
+                  count = 0;
+                }
+                map[i][j] = e[count];
+                count++;
+              } else {
+                var clrs = colors[Math.floor(Math.random() * colors.length) + 0];
+                map[i][j] = clrs;
+              }
+            }
+          }
+          loadMap(map);
+        }
+  
+        function loadMap(map) {
+          s(".transition").innerHTML = null;
+          for (var i = 0; i < rows; i++) {
+            for (var j = 0; j < rows; j++) {
+              var cube = document.createElement("div");
+              cube.setAttribute("class", map[i][j]);
+              cube.style.width = pixelSize + "px";
+              cube.style.height = pixelSize + "px";
+              s(".transition").appendChild(cube);
+            }
+          }
+        }
+  
+        function seedGen(e) {
+          colors = [];
+          if (e) {
+            var seed = e;
+          } else {
+            var seed = s("#seed").value;
+          }
+  
+          for (var i = 0; i < seed.length; i++) {
+            var num = parseInt(seed.charAt(i));
+            colors.push(cssClasses[num]);
+          }
+          generateMap(colors);
+        }
+  
+        function s(e) {
+          return document.querySelector(e);
+        }</script>
 </body>
 
 </html>

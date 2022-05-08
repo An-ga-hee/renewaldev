@@ -1,124 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+      }
 
-        #container {
-            background-color: #000;
+      #container {
+        background-color: #000;
 
-            width: 100vw;
-            height: 300px;
-        }
+        width: 100vw;
+        height: 225px;
+      }
 
-        .transition {
-            overflow: hidden;
-            position: absolute;
-            top: 50%;
-        }
+      .transition {
+        overflow: hidden;
+        position: absolute;
+        top: 50%;
+      }
 
-        .transition div {
-            float: left;
+      .transition div {
+        float: left;
+      }
 
-        }
-
-        .white {
-            background-color: #fff;
-        }
+      .white {
+        background-color: #fff;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="container">
-        <div class="transition"></div>
+      <div class="transition"></div>
     </div>
     <script>
-        var rows = 8;
-        var columms = 14;
-        var speed = 250;
-        var pixelSize = 50;
-        var cssClasses = ["white"];
-        window.onload = function () {
-            if (window.innerHeight >= 600) {
-                rows = rows;
-                // columms = rows / 2;
-            }
-            var c = s(".transition").style;
-            // c.width = rows * pixelSize * 3 + "px";
-            // c.height = columms * pixelSize * 2 + "px";
-            // c.marginLeft = -(rows * pixelSize) / 3 + "px";
-            c.marginTop = -(rows * pixelSize) + "px";
-            seedGen(new Date().getTime().toString().slice(-7) + "0000");
-
-            function toggle() {
-                var revolutions = setInterval(function () {
-                    generateMap();
-                }, speed);
-            }
-            toggle();
-        };
-
-        function generateMap(e) {
-            var map = [];
-            var count = 0;
-            for (var i = 0; i < rows; i++) {
-                map[i] = [];
-                for (var j = 0; j < rows; j++) {
-                    if (e) {
-                        if (count > e.length) {
-                            count = 0;
-                        }
-                        map[i][j] = e[count];
-                        count++;
-                    } else {
-                        var clrs = colors[Math.floor(Math.random() * colors.length) + 0];
-                        map[i][j] = clrs;
-                    }
-                }
-            }
-            loadMap(map);
+      var rows = 8;
+      var columms = 14;
+      var speed = 250;
+      var pixelSize = 70;
+      var cssClasses = ["white"];
+      window.onload = function () {
+        if (window.innerHeight >= 600) {
+          rows = rows;
+          // columms = rows / 2;
         }
+        var c = s(".transition").style;
+        // c.width = rows * pixelSize * 3 + "px";
+        // c.height = columms * pixelSize * 2 + "px";
+        // c.marginLeft = -(rows * pixelSize) / 3 + "px";
+        c.marginTop = -(rows * pixelSize) * 1.2 + "px";
+        seedGen(new Date().getTime().toString().slice(-7) + "0000");
 
-        function loadMap(map) {
-            s(".transition").innerHTML = null;
-            for (var i = 0; i < rows; i++) {
-                for (var j = 0; j < rows; j++) {
-                    var cube = document.createElement("div");
-                    cube.setAttribute("class", map[i][j]);
-                    cube.style.width = pixelSize + "px";
-                    cube.style.height = pixelSize + "px";
-                    s(".transition").appendChild(cube);
-                }
-            }
-        };
+        function toggle() {
+          var revolutions = setInterval(function () {
+            generateMap();
+          }, speed);
+        }
+        toggle();
+      };
 
-        function seedGen(e) {
-            colors = [];
+      function generateMap(e) {
+        var map = [];
+        var count = 0;
+        for (var i = 0; i < rows; i++) {
+          map[i] = [];
+          for (var j = 0; j < rows; j++) {
             if (e) {
-                var seed = e;
+              if (count > e.length) {
+                count = 0;
+              }
+              map[i][j] = e[count];
+              count++;
             } else {
-                var seed = s("#seed").value;
+              var clrs = colors[Math.floor(Math.random() * colors.length) + 0];
+              map[i][j] = clrs;
             }
+          }
+        }
+        loadMap(map);
+      }
 
-            for (var i = 0; i < seed.length; i++) {
-                var num = parseInt(seed.charAt(i));
-                colors.push(cssClasses[num]);
-            }
-            generateMap(colors);
+      function loadMap(map) {
+        s(".transition").innerHTML = null;
+        for (var i = 0; i < rows; i++) {
+          for (var j = 0; j < rows; j++) {
+            var cube = document.createElement("div");
+            cube.setAttribute("class", map[i][j]);
+            cube.style.width = pixelSize + "px";
+            cube.style.height = pixelSize + "px";
+            s(".transition").appendChild(cube);
+          }
+        }
+      }
+
+      function seedGen(e) {
+        colors = [];
+        if (e) {
+          var seed = e;
+        } else {
+          var seed = s("#seed").value;
         }
 
-        function s(e) {
-            return document.querySelector(e);
+        for (var i = 0; i < seed.length; i++) {
+          var num = parseInt(seed.charAt(i));
+          colors.push(cssClasses[num]);
         }
+        generateMap(colors);
+      }
+
+      function s(e) {
+        return document.querySelector(e);
+      }
     </script>
-</body>
-
+  </body>
 </html>
