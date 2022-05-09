@@ -985,7 +985,10 @@
 
                                         .txt-box {
                                             width: 180px;
-                                            .small {font-size: 16px;}
+
+                                            .small {
+                                                font-size: 16px;
+                                            }
                                         }
                                     }
                                 }
@@ -1260,55 +1263,6 @@
                 }
 
                 /* section1 */
-                #transition {
-                    height: 14.4vw;
-                    background-color: #202020;
-
-                    .pixel-grid {
-                        grid-template-columns: repeat(14, 1fr);
-                        grid-template-rows: repeat(3, 1fr);
-
-                        .pixel-grid__pixel {
-                            width: 7.2vw;
-                            height: 7.2vw;
-                        }
-
-                        .grid-1 {
-                            grid-area: 3 / 1 / 4 / 2;
-                        }
-
-                        .grid-2 {
-                            grid-area: 2 / 2 / 3 / 3;
-                        }
-
-                        .grid-3 {
-                            grid-area: 3 / 3 / 4 / 4;
-                        }
-
-                        .grid-4 {
-                            grid-area: 1 / 10 / 2 / 11;
-                        }
-
-                        .grid-5 {
-                            grid-area: 2 / 11 / 3 / 12;
-                        }
-
-                        .grid-6 {
-                            grid-area: 3 / 12 / 4 / 13;
-                            display: block;
-                        }
-
-                        .grid-7 {
-                            grid-area: 2 / 13 / 3 / 14;
-                            display: block;
-                        }
-
-                        .grid-8 {
-                            grid-area: 1 / 14 / 2 / 15;
-                            display: block;
-                        }
-                    }
-                }
 
                 #section3 {
                     #section3-grid {
@@ -2046,6 +2000,31 @@
                 }
 
                 /* section1 */
+                #transition {
+                    display: none;
+                }
+
+                #container {
+                    height: 300px;
+                    max-height: 100%;
+                    background-color: #000;
+                    position: relative;
+                    display: block;
+
+                    .transition {
+                        overflow: hidden;
+                        position: absolute;
+                        top: 0%;
+
+                        div {
+                            float: left;
+                        }
+                    }
+                }
+
+                .white {
+                    background-color: #fff;
+                }
 
                 #section2 {
                     #vision {
@@ -2721,7 +2700,11 @@
                                                 font-size: 22px;
                                                 font-weight: 700;
                                             }
-                                            .small {font-size: 22px;}
+
+                                            .small {
+                                                font-size: 22px;
+                                            }
+
                                             p {
                                                 font-size: 18px;
                                             }
