@@ -129,32 +129,55 @@ var swiper = new Swiper(".menu-mobile", {
   },
 });
 /* section3-popup */
-const modals = document.getElementsByClassName("popup-wrap");
-const btns = document.getElementsByClassName("image-grid__item");
-const spanes = document.getElementsByClassName("popup-btn");
-const funcs = [];
+// const modals = document.getElementsByClassName("popup-wrap");
+// const btns = document.getElementsByClassName("image-grid__item");
+// const spanes = document.getElementsByClassName("popup-btn");
+// const funcs = [];
+// // var modal = {
+// //   open: function () {
+// //     $('.popup-wrap').show();
+// //   },
+// //   close: function () {
+// //     $('.popup-wrap').hide();
+// //   }
+// // };
 
-function Modal(num) {
-  return function () {
-    btns[num].onclick = function () {
-      modals[num].style.display = "block";
-      console.log(num);
-    };
-    spanes[num].onclick = function () {
-      modals[num].style.display = "none";
-      console.log(num);
-    };
-  };
-};
+// function Modal(num) {
+//   return function () {
+//     btns[num].onclick = function () {
+//       modals[num].style.display = "block";
+//       console.log(num);
+//     };
+//     spanes[num].onclick = function () {
+//       modals[num].style.display = "none";
+//       console.log(num);
+//     };
+//   };
+// };
 
-for (var i = 0; i < btns.length; i++) {
-  funcs[i] = Modal(i);
-}
+// for (var i = 0; i < btns.length; i++) {
+//   funcs[i] = Modal(i);
+// }
 
-// 원하는 Modal 수만큼 funcs 함수 호출
-for (var j = 0; j < btns.length; j++) {
-  funcs[j]();
-}
+// // 원하는 Modal 수만큼 funcs 함수 호출
+// for (var j = 0; j < btns.length; j++) {
+//   funcs[j]();
+// }
+
+
+// $(document).on('click', '.popup-btn', function () {
+//   window.history.back();
+// }).on('click', '.image-grid__item', function () {
+//   window.history.pushState({}, 'Modal', '/Modal');
+//   modal.open();
+// });
+
+// window.onpopstate = history.onpushstate = function (e) {
+//   if (window.location.href.split('/').pop().indexOf('index') === -
+//     1) { // 마지막 segment가 cards라면 모달이 아닌 리스트인 상태이어야한다.
+//     modal.close(); // 현재의 모달을 닫는다.
+//   }
+// }
 
 
 /* healing PC */
@@ -179,5 +202,3 @@ function slidesPlugin(activeSlide = 0) {
 }
 
 slidesPlugin();
-
-
