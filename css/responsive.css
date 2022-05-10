@@ -934,6 +934,9 @@
   html body main #section3-popup #market-popup .market-cont .nft-ledership .ledership-wrap .ledership-img .txt-box h3 {
     font-size: 18px;
   }
+  html body main #section4 #businessWrap .business-txt {
+    width: 100%;
+  }
   html body main #section4 #businessWrap .business-txt h2 {
     font-size: 35px;
   }
