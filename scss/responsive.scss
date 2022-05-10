@@ -662,6 +662,7 @@
                                 font-size: 25px;
                                 width: 40px;
                                 height: 40px;
+             
                             }
 
                             .popup-txt {
@@ -904,7 +905,7 @@
                             .popup-btn {
                                 font-size: 25px;
                                 width: 40px;
-                                height: 40px;
+                                height: 40px;                   line-height: 40px;
                             }
 
                             .popup-txt {
@@ -1524,6 +1525,8 @@
                         .popup-cont {
                             .popup-btn {
                                 right: 10vw;
+                                height: 40px;
+                                line-height: 40px;
                             }
 
                             .popup-txt {
@@ -2528,6 +2531,7 @@
 
                             .business-img {
                                 width: 50%;
+                                height: 100%;
 
                                 img {
                                     width: 100%;
@@ -2568,6 +2572,7 @@
                                 // position: absolute;
                                 // top: 0%;
                                 // right: 0%;
+                                margin-left: 50%;
                             }
                         }
 
@@ -2592,6 +2597,7 @@
                                 right: 18vw;
                                 width: 50px;
                                 height: 50px;
+                                line-height: 50px;
                             }
 
                             .popup-txt {

@@ -133,14 +133,6 @@ var swiper = new Swiper(".menu-mobile", {
 // const btns = document.getElementsByClassName("image-grid__item");
 // const spanes = document.getElementsByClassName("popup-btn");
 // const funcs = [];
-// // var modal = {
-// //   open: function () {
-// //     $('.popup-wrap').show();
-// //   },
-// //   close: function () {
-// //     $('.popup-wrap').hide();
-// //   }
-// // };
 
 // function Modal(num) {
 //   return function () {
