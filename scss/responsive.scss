@@ -300,20 +300,34 @@
 
                 /* section2 */
                 #section4 {
-                    #businessWrap {
-                        .business-txt {
-                            padding: 5vw;
+                    #business {
+                        #businessWrap {
+                            height: 50vh;
 
-                            h2 {
-                                font-size: 30px;
+                            .business-img {
+
+                                height: 50vh;
+
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                }
                             }
 
-                            h3 {
-                                font-size: 20px;
-                            }
+                            .business-txt {
+                                padding: 5vw;
 
-                            p {
-                                font-size: 16px;
+                                h2 {
+                                    font-size: 30px;
+                                }
+
+                                h3 {
+                                    font-size: 20px;
+                                }
+
+                                p {
+                                    font-size: 16px;
+                                }
                             }
                         }
                     }
@@ -662,7 +676,7 @@
                                 font-size: 25px;
                                 width: 40px;
                                 height: 40px;
-             
+
                             }
 
                             .popup-txt {
@@ -905,7 +919,8 @@
                             .popup-btn {
                                 font-size: 25px;
                                 width: 40px;
-                                height: 40px;                   line-height: 40px;
+                                height: 40px;
+                                line-height: 40px;
                             }
 
                             .popup-txt {
@@ -1552,8 +1567,6 @@
                     }
 
                     #archiving {
-
-
                         .archiving-cont {
                             padding: 0 10vw;
 
@@ -2527,11 +2540,11 @@
 
                         #businessWrap {
                             width: 100%;
-                            height: 50%;
+                            height: 50vh;
 
                             .business-img {
                                 width: 50%;
-                                height: 100%;
+                                height: 50vh;
 
                                 img {
                                     width: 100%;
