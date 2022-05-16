@@ -72,26 +72,26 @@ var swiper = new Swiper(".healing-cont", {
   },
 });
 
-/* nft-slide */
-var swiper = new Swiper(".artplatform-slide", {
-  effect: "coverflow",
-  grabCursor: true,
-  centeredSlides: true,
-  spaceBetween: 200,
-  slidesPerView: "auto",
-  loop: true,
-  loopFillGroupWithBlank: true,
-  coverflowEffect: {
-    rotate: 0,
-    stretch: 0,
-    depth: 100,
-    modifier: 4,
-    slideShadows: false,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-  },
-});
+// /* nft-slide */
+// var swiper = new Swiper(".artplatform-slide", {
+//   effect: "coverflow",
+//   grabCursor: true,
+//   centeredSlides: true,
+//   spaceBetween: 200,
+//   slidesPerView: "auto",
+//   loop: true,
+//   loopFillGroupWithBlank: true,
+//   coverflowEffect: {
+//     rotate: 0,
+//     stretch: 0,
+//     depth: 100,
+//     modifier: 4,
+//     slideShadows: false,
+//   },
+//   pagination: {
+//     el: ".swiper-pagination",
+//   },
+// });
 
 /* menu-slide PC */
 var swiper = new Swiper(".menu-slide", {

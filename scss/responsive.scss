@@ -301,7 +301,7 @@
                 /* section2 */
                 #section4 {
                     #business {
-                        #businessWrap {
+                        .businessWrap {
                             height: 50vh;
 
                             .business-img {
@@ -676,7 +676,7 @@
                                 font-size: 25px;
                                 width: 40px;
                                 height: 40px;
-
+                                line-height: 40px;
                             }
 
                             .popup-txt {
@@ -1525,7 +1525,7 @@
 
                 /* section3-popup */
                 #section4 {
-                    #businessWrap {
+                    .businessWrap {
                         .business-txt {
                             width: 100%;
 
@@ -1880,6 +1880,7 @@
                     .pixel-grid {
                         grid-template-columns: repeat(4, 1fr);
                         grid-template-rows: repeat(4, 1fr);
+                        top: 0;
                         left: 0;
                         right: auto;
                         opacity: 1;
@@ -2540,7 +2541,7 @@
                     #business {
                         position: relative;
 
-                        #businessWrap {
+                        .businessWrap {
                             width: 100%;
                             height: 50vh;
 
@@ -2573,16 +2574,17 @@
                             }
                         }
 
-                        .pos-10 {
+                        #pos-10 {
                             .business-txt {
-                                position: absolute;
-                                top: 0%;
-                                right: 0%;
+                                // position: absolute;
+                                // top: 0%;
+                                // right: 0%;
                                 text-align: right;
+                                margin-left: 50%;
                             }
                         }
 
-                        .pos-11 {
+                        #pos-11 {
                             .business-img {
                                 // position: absolute;
                                 // top: 0%;
@@ -2591,12 +2593,13 @@
                             }
                         }
 
-                        .pos-12 {
+                        #pos-12 {
                             .business-txt {
-                                position: absolute;
-                                top: 0%;
-                                right: 0%;
+                                // position: absolute;
+                                // top: 0%;
+                                // right: 0%;
                                 text-align: right;
+                                margin-left: 50%;
                             }
                         }
                     }

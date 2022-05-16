@@ -754,18 +754,18 @@ html body main #section2 #vision .vision-txt p {
 }
 
 html body main #section2 .mission .vision-img {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/mission.png);
-  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/mission.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/mission.jpg);
+  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/mission.jpg);
 }
 
 html body main #section2 .vision .vision-img {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/vision.png);
-  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/vision.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/vision.jpg);
+  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/vision.jpg);
 }
 
 html body main #section2 .strength .vision-img {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/strength.png);
-  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/strength.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/strength.jpg);
+  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/strength.jpg);
 }
 
 html body main #section3 {
@@ -984,32 +984,32 @@ html body main #section3-popup #myme-popup .myme-cont .myme-wrap p span {
 }
 
 html body main #section3-popup #myme-popup .myme-cont .wrap-1 {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/popup-myMe1.png);
-  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/popup-myMe1.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/popup-myMe1.jpg);
+  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/popup-myMe1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right, 80%;
 }
 
 html body main #section3-popup #myme-popup .myme-cont .wrap-2 {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/popup-myMe2.png);
-  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/popup-myMe2.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/popup-myMe2.jpg);
+  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/popup-myMe2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left, 30%;
 }
 
 html body main #section3-popup #myme-popup .myme-cont .wrap-3 {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/popup-myMe3.png);
-  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/popup-myMe3.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/popup-myMe3.jpg);
+  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/popup-myMe3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left, 0%;
 }
 
 html body main #section3-popup #myme-popup .myme-cont .wrap-4 {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/popup-myMe4.png);
-  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/popup-myMe4.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/popup-myMe4.jpg);
+  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/popup-myMe4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left, 0%;
@@ -1061,32 +1061,32 @@ html body main #section3-popup #myspace-popup .myspace-cont .myspace-wrap p span
 }
 
 html body main #section3-popup #myspace-popup .myspace-cont .wrap-1 {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/popup-myspace1.png);
-  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/popup-myspace1.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/popup-myspace1.jpg);
+  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/popup-myspace1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right, 80%;
 }
 
 html body main #section3-popup #myspace-popup .myspace-cont .wrap-2 {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/popup-myspace2.png);
-  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/popup-myspace2.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/popup-myspace2.jpg);
+  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/popup-myspace2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left, 30%;
 }
 
 html body main #section3-popup #myspace-popup .myspace-cont .wrap-3 {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/popup-myspace3.png);
-  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/popup-myspace3.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/popup-myspace3.jpg);
+  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/popup-myspace3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left, 0%;
 }
 
 html body main #section3-popup #myspace-popup .myspace-cont .wrap-4 {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/popup-myspace4.png);
-  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/popup-myspace4.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(50%, rgba(0, 0, 0, 0))), url(../img/popup-myspace4.jpg);
+  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 50%), url(../img/popup-myspace4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left, 0%;
@@ -1274,6 +1274,7 @@ html body main #section3-popup #world-popup .world-cont {
 html body main #section3-popup #world-popup .world-cont .world-wrap {
   width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 
 html body main #section3-popup #world-popup .world-cont .world-wrap .world-img {
@@ -1286,11 +1287,19 @@ html body main #section3-popup #world-popup .world-cont .world-wrap .world-img v
   height: 100%;
 }
 
+html body main #section3-popup #world-popup .world-cont .world-wrap .world-txt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1vw 2vw;
+}
+
 html body main #section3-popup #world-popup .world-cont .world-wrap .world-txt h2 {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 800;
   margin-top: 10px;
+  color: #fff;
 }
 
 html body main #section3-popup #market-popup .market-cont {
@@ -1325,8 +1334,8 @@ html body main #section3-popup #market-popup .market-cont .nft-ledership {
 html body main #section3-popup #market-popup .market-cont .nft-slogan .platform {
   width: 90vw;
   height: 45vw;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(60%, rgba(0, 0, 0, 0))), url(../img/popup-nft.png);
-  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 60%), url(../img/popup-nft.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(60%, rgba(0, 0, 0, 0))), url(../img/popup-nft.jpg);
+  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 60%), url(../img/popup-nft.jpg);
   position: relative;
   background-size: cover;
   margin-top: 15px;
@@ -1676,7 +1685,7 @@ html body main #section4 {
   background-color: #000;
 }
 
-html body main #section4 #business #businessWrap {
+html body main #section4 #business .businessWrap {
   height: 33vh;
   position: relative;
   cursor: pointer;
@@ -1684,19 +1693,19 @@ html body main #section4 #business #businessWrap {
   width: 100%;
 }
 
-html body main #section4 #business #businessWrap .business-img {
+html body main #section4 #business .businessWrap .business-img {
   width: 100%;
   height: 33vh;
   overflow: hidden;
   cursor: pointer;
 }
 
-html body main #section4 #business #businessWrap .business-img img {
+html body main #section4 #business .businessWrap .business-img img {
   width: 100%;
   height: 100%;
 }
 
-html body main #section4 #business #businessWrap .business-txt {
+html body main #section4 #business .businessWrap .business-txt {
   padding: 5vw;
   width: 100%;
   position: absolute;
@@ -1705,19 +1714,19 @@ html body main #section4 #business #businessWrap .business-txt {
           transform: translateY(-50%);
 }
 
-html body main #section4 #business #businessWrap .business-txt h2 {
+html body main #section4 #business .businessWrap .business-txt h2 {
   color: #ff9900;
   text-transform: uppercase;
   font-size: 6vw;
   font-weight: 800;
 }
 
-html body main #section4 #business #businessWrap .business-txt h2 span {
+html body main #section4 #business .businessWrap .business-txt h2 span {
   font-weight: 300;
   font-style: italic;
 }
 
-html body main #section4 #business #businessWrap .business-txt h3 {
+html body main #section4 #business .businessWrap .business-txt h3 {
   font-style: normal;
   font-weight: 400;
   font-size: 3.7vw;
@@ -1725,18 +1734,18 @@ html body main #section4 #business #businessWrap .business-txt h3 {
   margin: 17px 0 8px;
 }
 
-html body main #section4 #business #businessWrap .business-txt p {
+html body main #section4 #business .businessWrap .business-txt p {
   font-weight: 500;
   font-size: 3vw;
   color: #aaa;
 }
 
-html body main #section4 #business #businessWrap .business-txt p span {
+html body main #section4 #business .businessWrap .business-txt p span {
   font-weight: 100;
   font-style: italic;
 }
 
-html body main #section4 #business #businessWrap:hover img {
+html body main #section4 .businessWrap:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: 0.5s;
@@ -2456,7 +2465,10 @@ html body main #section5 .crew .crew-container .crew-wrap .crew-txt p {
 html body main #top-btn {
   color: #fff;
   font-size: 30px;
-  padding: 3px 16px 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 45px;
   position: fixed;
   bottom: 5%;
   right: 3%;

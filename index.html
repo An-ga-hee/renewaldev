@@ -232,7 +232,7 @@
         </section>
         <!-- section3 -->
         <section id="section3-popup">
-            <div  id="myme-popup"  class="popup-wrap">
+            <div id="myme-popup" class="popup-wrap">
                 <div class="popup-cont">
                     <a href="#section3-grid" class="popup-btn"><i class="fas fa-times"></i></a>
                     <div class="popup-txt">
@@ -272,7 +272,7 @@
                 </div>
             </div>
             <!-- myme-popup -->
-            <div  id="myspace-popup"  class="popup-wrap">
+            <div id="myspace-popup" class="popup-wrap">
                 <div class="popup-cont">
                     <a href="#section3-grid" class="popup-btn"><i class="fas fa-times"></i></a>
                     <div class="popup-txt">
@@ -306,7 +306,7 @@
                 </div>
             </div>
             <!-- myspace-->
-            <div  id="healing-popup"  class="popup-wrap">
+            <div id="healing-popup" class="popup-wrap">
                 <div class="popup-cont">
                     <a href="#section3-grid" class="popup-btn"><i class="fas fa-times"></i></a>
                     <div class="popup-txt">
@@ -390,7 +390,7 @@
                 <!-- healing pc -->
             </div>
             <!-- healing -->
-            <div id="gallery-popup"  class="popup-wrap">
+            <div id="gallery-popup" class="popup-wrap">
                 <div class="popup-cont">
                     <a href="#section3-grid" class="popup-btn"><i class="fas fa-times"></i></a>
                     <div class="popup-txt">
@@ -428,7 +428,7 @@
                 </div>
             </div>
             <!-- gallery -->
-            <div  id="world-popup"  class="popup-wrap">
+            <div id="world-popup" class="popup-wrap">
                 <div class="popup-cont">
                     <a href="#section3-grid" class="popup-btn"><i class="fas fa-times"></i></a>
                     <div class="popup-txt">
@@ -469,7 +469,7 @@
                 </div>
             </div>
             <!-- world -->
-            <div  id="market-popup"  class="popup-wrap">
+            <div id="market-popup" class="popup-wrap">
                 <div class="popup-cont">
                     <a href="#section3-grid" class="popup-btn"><i class="fas fa-times"></i></a>
                     <div class="popup-txt">
@@ -823,7 +823,7 @@
                 </div>
             </div>
             <div id="business">
-                <a href="#archiving" id="businessWrap" class="image-grid__item pos-10">
+                <a href="#archiving" id="pos-10" class="businessWrap">
                     <div class="business-img">
                         <img src="img/archiving.jpg" loading="lazy" alt="archiving">
                     </div>
@@ -839,7 +839,7 @@
                     </div>
                 </a>
                 <!-- archiving 끝 -->
-                <a href="#artfair" id="businessWrap" class="image-grid__item pos-11">
+                <a href="#artfair" id="pos-11" class="businessWrap">
                     <div class="business-img">
                         <img src="img/artfair.jpg" loading="lazy" alt="artfair">
                     </div>
@@ -847,13 +847,13 @@
                         <h2>
                             metaverse <span>art</span> fair</h2>
                         <h3 data-langNum="16">
-                            Action is the basic key to success.</h3>
-                        <p data-langNum="17">Pablo
-                            Picasso<span>(1881-1973)</span></p>
+                            “Exhibition” is a privileged place where an instantaneous sense of community governed by various principles is created.</h3>
+                        <p data-langNum="17">
+                            Nicolas Bourriaud <span>(1965~)</span></p>
                     </div>
                 </a>
                 <!-- artfair 끝 -->
-                <a href="#jeju" id="businessWrap" class="image-grid__item pos-12">
+                <a href="#jeju" id="pos-12" class="businessWrap">
                     <div class="business-img">
                         <img src="img/inJeju.jpg" loading="lazy" alt="injeju">
                     </div>
@@ -864,7 +864,7 @@
                             When we travel to unfamiliar places,<br>not to see a new world<br> To open your eyes to the
                             world.</h3>
                         <p data-langNum="19">
-                            Marcel Proust<span>(1871-1922)</span></p>
+                            Marcel Proust <span>(1871-1922)</span></p>
                     </div>
                 </a>
                 <!-- in-jeju 끝 -->
@@ -971,8 +971,8 @@
                         </div>
                         <div class="video">
                             <div class="img-box">
-                                <iframe src="https://www.youtube.com/embed/-gOhWc9WY4M?start=1"
-                                    title="YouTube video player" frameborder="0" controls="2"
+                                <iframe src="https://www.youtube.com/embed/PJAeXr5HfrU" title="YouTube video player"
+                                    frameborder="0" controls="2"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
                             </div>
@@ -1088,8 +1088,8 @@
                         </div>
                         <div class="video">
                             <div class="img-box">
-                                <iframe src="https://www.youtube.com/embed/7NHo7-onh8s?start=1"
-                                    title="YouTube video player" frameborder="0" controls="2"
+                                <iframe src="https://www.youtube.com/embed/k-yXXzQ-Qtw" title="YouTube video player"
+                                    frameborder="0" controls="2"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
                             </div>
@@ -1602,6 +1602,29 @@
         function s(e) {
             return document.querySelector(e);
         }
+
+
+        /* nft-slide */
+        var swiper = new Swiper(".artplatform-slide", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            spaceBetween: 200,
+            slidesPerView: "auto",
+            loop: true,
+            loopFillGroupWithBlank: true,
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 4,
+                slideShadows: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
     </script>
 </body>
 
